@@ -27,8 +27,7 @@ limitations under the License.
     <application
         android:debuggable="true"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
-        android:testOnly="true" >
+        android:label="@string/app_name" >
         <activity
             android:name="com.example.android.lifecycle.ActivityA"
             android:launchMode="singleTask" >

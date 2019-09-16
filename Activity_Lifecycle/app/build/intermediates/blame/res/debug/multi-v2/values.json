@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\chris\\SDA\\2019\\Activity_Lifecycle\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\chris\\SDA-2019\\Activity_Lifecycle\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\chris\\SDA\\2019\\Activity_Lifecycle\\app\\src\\main\\res\\values\\dimensions.xml",
-                    "from": {
-                        "startLines": "17,18,19",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "641,683,726",
-                        "endColumns": "41,42,41",
-                        "endOffsets": "678,721,763"
-                    },
-                    "to": {
-                        "startLines": "12,13,14",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "495,537,580",
-                        "endColumns": "41,42,41",
-                        "endOffsets": "532,575,617"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\chris\\SDA\\2019\\Activity_Lifecycle\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\chris\\SDA-2019\\Activity_Lifecycle\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "51,31,32,33,20,17,40,41,42,43,35,36,37,38,57,58,21,19,45,46,23,47,24,48,49,28,26,29,25,27,50,53,54,55",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\chris\\SDA\\2019\\Activity_Lifecycle\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "C:\\Users\\chris\\SDA-2019\\Activity_Lifecycle\\app\\src\\main\\res\\values\\dimensions.xml",
+                    "from": {
+                        "startLines": "17,18,19",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "641,683,726",
+                        "endColumns": "41,42,41",
+                        "endOffsets": "678,721,763"
+                    },
+                    "to": {
+                        "startLines": "12,13,14",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "495,537,580",
+                        "endColumns": "41,42,41",
+                        "endOffsets": "532,575,617"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\chris\\SDA-2019\\Activity_Lifecycle\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
                         "startLines": "18,25,26,27,28,20,21,22,23,17",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
