@@ -1,0 +1,79 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\chris\\SDA\\2019\\AudioVideoVideoPlay\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\chris\\SDA\\2019\\AudioVideoVideoPlay\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "4,7,2,3,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "252,484,102,172,320,400,558",
+                        "endColumns": "67,73,69,79,79,83,65",
+                        "endOffsets": "315,553,167,247,395,479,619"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "100,166,238,306,384,462,544",
+                        "endColumns": "65,71,67,77,77,81,63",
+                        "endOffsets": "161,233,301,379,457,539,603"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\chris\\SDA\\2019\\AudioVideoVideoPlay\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "3,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "174,258",
+                        "endColumns": "82,87",
+                        "endOffsets": "252,341"
+                    },
+                    "to": {
+                        "startLines": "9,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "608,689",
+                        "endColumns": "80,85",
+                        "endOffsets": "684,770"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\chris\\SDA\\2019\\AudioVideoVideoPlay\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endColumns": "56",
+                        "endOffsets": "108"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "775",
+                        "endColumns": "56",
+                        "endOffsets": "827"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\chris\\SDA\\2019\\AudioVideoVideoPlay\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "625"
+                    },
+                    "to": {
+                        "startLines": "12",
+                        "startColumns": "4",
+                        "startOffsets": "832",
+                        "endLines": "20",
+                        "endColumns": "12",
+                        "endOffsets": "1402"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Wed Sep 11 15:28:57 BST 2019
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\chris\\Desktop\\modules\\BindDemo\\BindDemo\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1

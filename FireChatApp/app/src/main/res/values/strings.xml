@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Firebase Chat Application</string>
+    <string name="send">Send</string>
+    <string name="enter_discussion">Enter your comment</string>
+    <string name="welcom">Welcome to the SDA Chat Application Demo</string>
+    <string name="supports_google_note">This application currently only supports google sign-in.</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="action_logout">Log Out</string>
+    <string name="loggingOut">Logged out of Firebase</string>
+    <string name="userTextiew">user details</string>
+    <string name="google_user_image">google user image</string>
+    <string name="username_desc">Welcome:&#160;</string>
+    <string name="email_desc">Email:&#160;</string>
+    <string name="topic_welcome">Please select a Topic below</string>
+    <string name="new_entry">new_entry</string>
+    <string name="add_new_image">add new image</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="get_token">Get Token</string>
+    <string name="tokenKey">Token:</string>
+</resources>

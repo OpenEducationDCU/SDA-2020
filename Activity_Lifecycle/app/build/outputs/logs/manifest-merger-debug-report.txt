@@ -1,0 +1,77 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml:17:1-42:12
+INJECTED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml:17:1-42:12
+INJECTED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml:17:1-42:12
+INJECTED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml:17:1-42:12
+INJECTED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml:17:1-42:12
+INJECTED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml:17:1-42:12
+INJECTED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml:17:1-42:12
+	package
+		ADDED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml:19:5-44
+		INJECTED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml:17:1-42:12
+		INJECTED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml:18:5-51
+	android:versionCode
+		INJECTED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml:17:1-42:12
+		INJECTED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml:17:11-69
+application
+ADDED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml:21:5-41:19
+	android:label
+		ADDED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml:21:18-50
+	tools:ignore
+		ADDED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml:23:9-48
+	android:icon
+		ADDED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml:22:18-54
+activity#com.example.android.lifecycle.ActivityA
+ADDED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml:25:9-31:20
+	android:launchMode
+		ADDED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml:26:13-44
+	android:name
+		ADDED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml:25:19-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml:29:27-74
+activity#com.example.android.lifecycle.ActivityB
+ADDED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml:33:9-47
+	android:name
+		ADDED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml:33:19-44
+activity#com.example.android.lifecycle.ActivityC
+ADDED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml:35:9-47
+	android:name
+		ADDED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml:35:19-44
+activity#com.example.android.lifecycle.DialogActivity
+ADDED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml:37:9-39:20
+	android:theme
+		ADDED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml:38:19-62
+	android:name
+		ADDED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml:37:19-49
+uses-sdk
+INJECTED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chris\SDA\2019\Activity_Lifecycle\app\src\main\AndroidManifest.xml

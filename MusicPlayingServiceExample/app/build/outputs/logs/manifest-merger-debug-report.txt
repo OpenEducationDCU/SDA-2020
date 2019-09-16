@@ -1,0 +1,75 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:2:1-29:12
+	package
+		ADDED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:4:5-52
+		INJECTED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:6:5-30
+		INJECTED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:5:5-28
+		INJECTED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:8:5-77
+	android:name
+		ADDED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:8:22-74
+application
+ADDED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:10:5-27:19
+	android:label
+		ADDED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:13:9-41
+	tools:ignore
+		ADDED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:14:9-48
+	android:icon
+		ADDED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:12:9-45
+	android:allowBackup
+		ADDED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:11:9-36
+activity#course.examples.services.musicservice.MusicServiceClient
+ADDED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:15:9-24:20
+	android:label
+		ADDED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:17:13-45
+	android:launchMode
+		ADDED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:18:13-43
+	android:name
+		ADDED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:16:13-84
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:22:27-74
+service#course.examples.services.musicservice.MusicService
+ADDED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:26:9-86
+	android:name
+		ADDED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:26:18-83
+uses-sdk
+INJECTED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml

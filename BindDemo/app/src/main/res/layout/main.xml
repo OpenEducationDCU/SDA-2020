@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical">
+
+<RelativeLayout
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Service" >
+    </Button>
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Stop Service" >
+    </Button>
+</RelativeLayout>
+
+<RelativeLayout
+    android:id="@+id/RelativeLayout02"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <Button
+        android:id="@+id/btnBind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bind to Service" >
+    </Button>
+
+    <Button
+        android:id="@+id/btnUnbind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Unbind from Service" >
+    </Button>
+</RelativeLayout>
+
+<TextView
+    android:id="@+id/textStatus"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Status Goes Here"
+    android:textSize="24sp" />
+
+<TextView
+    android:id="@+id/textIntValue"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Integer Value Goes Here"
+    android:textSize="24sp" />
+
+<TextView
+    android:id="@+id/textStrValue"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="String Value Goes Here"
+    android:textSize="24sp" />
+
+<RelativeLayout
+    android:id="@+id/RelativeLayout03"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <Button
+        android:id="@+id/btnUpby1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Increment by 1" >
+    </Button>
+
+    <Button
+        android:id="@+id/btnUpby10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Increment by 10" >
+    </Button>
+</RelativeLayout>
+
+</LinearLayout>

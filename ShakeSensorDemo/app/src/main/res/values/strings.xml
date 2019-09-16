@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ShakeSensor!</string>
+    <string name="app_name">ShakeSensor</string>
+    <string name="ui_shake_title">Shake to get a toast and to switch color</string>
+
+</resources>

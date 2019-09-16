@@ -1,0 +1,47 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="course.examples.newmaplocationfromcontacts"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_CONTACTS" >
+11-->C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:8:5-9:23
+11-->C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:8:22-69
+12    </uses-permission>
+13
+14    <application
+14-->C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:11:5-24:19
+15        android:allowBackup="false"
+15-->C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:12:9-36
+16        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+16-->[com.android.support:support-compat:28.0.0] C:\Users\chris\.gradle\caches\transforms-2\files-2.1\dd1cf78f22bdd94f550130b281f27c97\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+17        android:debuggable="true"
+18        android:icon="@drawable/ic_launcher"
+18-->C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:13:9-45
+19        android:testOnly="true" >
+20        <activity
+20-->C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:15:9-23:20
+21            android:name="course.examples.newmaplocationfromcontacts.NewMapLocationFromContactsActivity"
+21-->C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:16:13-63
+22            android:label="NewMapLocationFromContacts" >
+22-->C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:17:13-55
+23            <intent-filter>
+23-->C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:18:13-22:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:19:17-69
+24-->C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:19:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:21:17-77
+26-->C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:21:27-74
+27            </intent-filter>
+28        </activity>
+29    </application>
+30
+31</manifest>

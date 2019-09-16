@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SimpleGetLocation</string>
+    <string name="ok">OK</string>
+    <string name="title_location_permission">Location Access</string>
+    <string name="text_location_permission">This application needs access to locations, grant access?</string>
+    <string name="permission_denied">Please enable location permissions in App Settings</string>
+    <string name="get_location">Get Last Location</string>
+    <string name="no_address_found">No address was found for these coordinates</string>
+    <string name="no_address">No Address found for the coordinates</string>
+    <string name="get_location_address">Get Location Address</string>
+    <string name="select_a_button">Select a button to display location information!</string>
+</resources>

@@ -1,0 +1,15 @@
+#Internal package file, do not edit.
+#Sun Feb 05 19:09:02 EST 2017
+1.base=C\:\\Users\\Xing-Dong Yang\\Desktop\\CS65 code\\binddemo\\BindDemo\\app\\build\\intermediates\\res\\resources-debug.ap_
+1.file=C\:\\Users\\Xing-Dong Yang\\Desktop\\CS65 code\\binddemo\\BindDemo\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
+2.base=C\:\\Users\\Xing-Dong Yang\\Desktop\\CS65 code\\binddemo\\BindDemo\\app\\build\\intermediates\\res\\resources-debug.ap_
+3.set=ANDROID_RESOURCE
+2.set=ANDROID_RESOURCE
+2.file=C\:\\Users\\Xing-Dong Yang\\Desktop\\CS65 code\\binddemo\\BindDemo\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\main.xml
+count=4
+1.set=ANDROID_RESOURCE
+3.base=C\:\\Users\\Xing-Dong Yang\\Desktop\\CS65 code\\binddemo\\BindDemo\\app\\build\\intermediates\\res\\resources-debug.ap_
+0.set=ANDROID_RESOURCE
+0.base=C\:\\Users\\Xing-Dong Yang\\Desktop\\CS65 code\\binddemo\\BindDemo\\app\\build\\intermediates\\res\\resources-debug.ap_
+3.file=C\:\\Users\\Xing-Dong Yang\\Desktop\\CS65 code\\binddemo\\BindDemo\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\ic_launcher.png
+0.file=C\:\\Users\\Xing-Dong Yang\\Desktop\\CS65 code\\binddemo\\BindDemo\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc

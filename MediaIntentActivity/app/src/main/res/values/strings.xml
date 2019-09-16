@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MediaIntentActivity</string>
+    <string name="imagedesc">Image Display</string>
+    <string name="take_big">Take (big) Picture</string>
+    <string name="take_small">Take Thumbnail</string>
+    <string name="record">Record a video</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="cannot">Disabled</string>
+    <string name="toaster">Click to play</string>
+</resources>

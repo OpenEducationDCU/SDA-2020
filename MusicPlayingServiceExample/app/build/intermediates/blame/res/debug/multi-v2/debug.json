@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\chris\\SDA-2019\\MusicPlayingServiceExample\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\chris\\SDA-2019\\MusicPlayingServiceExample\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,128,191",
+                        "endColumns": "72,62,60",
+                        "endOffsets": "123,186,247"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+#Sun Feb 05 19:09:08 EST 2017
+base.0=C\:\\Users\\Xing-Dong Yang\\Desktop\\CS65 code\\binddemo\\BindDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_1eca0add17c41c6a95340ea01175e5a7c65b7f3d
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Xing-Dong Yang\\Desktop\\CS65 code\\binddemo\\BindDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_a696dfef6bf992a6b1bee174c62a680f986211b0\\classes.dex
+base.1=C\:\\Users\\Xing-Dong Yang\\Desktop\\CS65 code\\binddemo\\BindDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_a696dfef6bf992a6b1bee174c62a680f986211b0
+file.0=C\:\\Users\\Xing-Dong Yang\\Desktop\\CS65 code\\binddemo\\BindDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_1eca0add17c41c6a95340ea01175e5a7c65b7f3d\\classes.dex

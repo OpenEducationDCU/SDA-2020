@@ -1,0 +1,79 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\chris\\SDA-2019\\ContentProviderExample\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\chris\\SDA-2019\\ContentProviderExample\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "127",
+                        "endColumns": "46",
+                        "endOffsets": "169"
+                    },
+                    "to": {
+                        "startLines": "8",
+                        "startColumns": "4",
+                        "startOffsets": "325",
+                        "endColumns": "46",
+                        "endOffsets": "367"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\chris\\SDA-2019\\ContentProviderExample\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "4,7,2,3,5,6",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "144,281,55,97,185,232",
+                        "endColumns": "40,43,41,46,46,48",
+                        "endOffsets": "180,320,92,139,227,276"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,96,140,182,229,276",
+                        "endColumns": "40,43,41,46,46,48",
+                        "endOffsets": "91,135,177,224,271,320"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\chris\\SDA-2019\\ContentProviderExample\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "56,116",
+                        "endColumns": "59,93",
+                        "endOffsets": "111,205"
+                    },
+                    "to": {
+                        "startLines": "9,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "372,432",
+                        "endColumns": "59,93",
+                        "endOffsets": "427,521"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\chris\\SDA-2019\\ContentProviderExample\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "633"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "526",
+                        "endLines": "19",
+                        "endColumns": "12",
+                        "endOffsets": "1104"
+                    }
+                }
+            ]
+        }
+    ]
+}

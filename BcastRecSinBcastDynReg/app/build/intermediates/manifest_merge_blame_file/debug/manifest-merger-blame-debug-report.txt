@@ -1,0 +1,44 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="course.examples.broadcastreceiver.singlebroadcastdynamicregistration" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="23"
+6-->C:\Users\chris\SDA-2019\BcastRecSinBcastDynReg\app\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="28" />
+7-->C:\Users\chris\SDA-2019\BcastRecSinBcastDynReg\app\src\main\AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.VIBRATE" />
+9-->C:\Users\chris\SDA-2019\BcastRecSinBcastDynReg\app\src\main\AndroidManifest.xml:5:5-66
+9-->C:\Users\chris\SDA-2019\BcastRecSinBcastDynReg\app\src\main\AndroidManifest.xml:5:22-63
+10
+11    <application
+11-->C:\Users\chris\SDA-2019\BcastRecSinBcastDynReg\app\src\main\AndroidManifest.xml:7:5-19:19
+12        android:allowBackup="false"
+12-->C:\Users\chris\SDA-2019\BcastRecSinBcastDynReg\app\src\main\AndroidManifest.xml:8:9-36
+13        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+13-->[com.android.support:support-compat:28.0.0] C:\Users\chris\.gradle\caches\transforms-2\files-2.1\dd1cf78f22bdd94f550130b281f27c97\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\chris\SDA-2019\BcastRecSinBcastDynReg\app\src\main\AndroidManifest.xml:9:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\chris\SDA-2019\BcastRecSinBcastDynReg\app\src\main\AndroidManifest.xml:10:9-41
+17        android:theme="@style/MaterialTheme" >
+17-->C:\Users\chris\SDA-2019\BcastRecSinBcastDynReg\app\src\main\AndroidManifest.xml:11:9-45
+18        <activity android:name="course.examples.broadcastreceiver.singlebroadcastdynamicregistration.SingleBroadcastActivity" >
+18-->C:\Users\chris\SDA-2019\BcastRecSinBcastDynReg\app\src\main\AndroidManifest.xml:12:9-18:20
+18-->C:\Users\chris\SDA-2019\BcastRecSinBcastDynReg\app\src\main\AndroidManifest.xml:12:19-58
+19            <intent-filter>
+19-->C:\Users\chris\SDA-2019\BcastRecSinBcastDynReg\app\src\main\AndroidManifest.xml:13:13-17:29
+20                <action android:name="android.intent.action.MAIN" />
+20-->C:\Users\chris\SDA-2019\BcastRecSinBcastDynReg\app\src\main\AndroidManifest.xml:14:17-69
+20-->C:\Users\chris\SDA-2019\BcastRecSinBcastDynReg\app\src\main\AndroidManifest.xml:14:25-66
+21
+22                <category android:name="android.intent.category.LAUNCHER" />
+22-->C:\Users\chris\SDA-2019\BcastRecSinBcastDynReg\app\src\main\AndroidManifest.xml:16:17-77
+22-->C:\Users\chris\SDA-2019\BcastRecSinBcastDynReg\app\src\main\AndroidManifest.xml:16:27-74
+23            </intent-filter>
+24        </activity>
+25    </application>
+26
+27</manifest>

@@ -1,0 +1,42 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="course.examples.audiovideo.videoplay" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="23"
+6-->C:\Users\chris\SDA\2019\AudioVideoVideoPlay\app\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="28" />
+7-->C:\Users\chris\SDA\2019\AudioVideoVideoPlay\app\src\main\AndroidManifest.xml
+8
+9    <application
+9-->C:\Users\chris\SDA\2019\AudioVideoVideoPlay\app\src\main\AndroidManifest.xml:5:5-19:19
+10        android:allowBackup="false"
+10-->C:\Users\chris\SDA\2019\AudioVideoVideoPlay\app\src\main\AndroidManifest.xml:6:9-36
+11        android:debuggable="true"
+12        android:icon="@mipmap/ic_launcher"
+12-->C:\Users\chris\SDA\2019\AudioVideoVideoPlay\app\src\main\AndroidManifest.xml:7:9-43
+13        android:label="@string/app_name"
+13-->C:\Users\chris\SDA\2019\AudioVideoVideoPlay\app\src\main\AndroidManifest.xml:8:9-41
+14        android:testOnly="true"
+15        android:theme="@style/MaterialTheme" >
+15-->C:\Users\chris\SDA\2019\AudioVideoVideoPlay\app\src\main\AndroidManifest.xml:9:9-45
+16        <activity
+16-->C:\Users\chris\SDA\2019\AudioVideoVideoPlay\app\src\main\AndroidManifest.xml:10:9-18:20
+17            android:name="course.examples.audiovideo.videoplay.AudioVideoVideoPlayActivity"
+17-->C:\Users\chris\SDA\2019\AudioVideoVideoPlay\app\src\main\AndroidManifest.xml:11:13-56
+18            android:label="@string/app_name" >
+18-->C:\Users\chris\SDA\2019\AudioVideoVideoPlay\app\src\main\AndroidManifest.xml:12:13-45
+19            <intent-filter>
+19-->C:\Users\chris\SDA\2019\AudioVideoVideoPlay\app\src\main\AndroidManifest.xml:13:13-17:29
+20                <action android:name="android.intent.action.MAIN" />
+20-->C:\Users\chris\SDA\2019\AudioVideoVideoPlay\app\src\main\AndroidManifest.xml:14:17-69
+20-->C:\Users\chris\SDA\2019\AudioVideoVideoPlay\app\src\main\AndroidManifest.xml:14:25-66
+21
+22                <category android:name="android.intent.category.LAUNCHER" />
+22-->C:\Users\chris\SDA\2019\AudioVideoVideoPlay\app\src\main\AndroidManifest.xml:16:17-77
+22-->C:\Users\chris\SDA\2019\AudioVideoVideoPlay\app\src\main\AndroidManifest.xml:16:27-74
+23            </intent-filter>
+24        </activity>
+25    </application>
+26
+27</manifest>

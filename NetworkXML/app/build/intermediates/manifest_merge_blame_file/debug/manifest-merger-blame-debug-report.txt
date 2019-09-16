@@ -1,0 +1,56 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="course.examples.networking.androidhttpclientxml"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\chris\SDA\2019\NetworkXML\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\chris\SDA\2019\NetworkXML\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" >
+11-->C:\Users\chris\SDA\2019\NetworkXML\app\src\main\AndroidManifest.xml:8:5-9:23
+11-->C:\Users\chris\SDA\2019\NetworkXML\app\src\main\AndroidManifest.xml:8:22-64
+12    </uses-permission>
+13
+14    <application
+14-->C:\Users\chris\SDA\2019\NetworkXML\app\src\main\AndroidManifest.xml:11:5-30:19
+15        android:allowBackup="false"
+15-->C:\Users\chris\SDA\2019\NetworkXML\app\src\main\AndroidManifest.xml:12:9-36
+16        android:debuggable="true"
+17        android:icon="@drawable/ic_launcher"
+17-->C:\Users\chris\SDA\2019\NetworkXML\app\src\main\AndroidManifest.xml:13:9-45
+18        android:label="@string/app_name"
+18-->C:\Users\chris\SDA\2019\NetworkXML\app\src\main\AndroidManifest.xml:14:9-41
+19        android:testOnly="true"
+20        android:usesCleartextTraffic="true" >
+20-->C:\Users\chris\SDA\2019\NetworkXML\app\src\main\AndroidManifest.xml:15:9-44
+21        <activity
+21-->C:\Users\chris\SDA\2019\NetworkXML\app\src\main\AndroidManifest.xml:17:9-20:20
+22            android:name="course.examples.networking.xml.NetworkingXMLActivity"
+22-->C:\Users\chris\SDA\2019\NetworkXML\app\src\main\AndroidManifest.xml:18:13-80
+23            android:label="@string/app_name" >
+23-->C:\Users\chris\SDA\2019\NetworkXML\app\src\main\AndroidManifest.xml:19:13-45
+24        </activity>
+25        <activity
+25-->C:\Users\chris\SDA\2019\NetworkXML\app\src\main\AndroidManifest.xml:21:9-29:20
+26            android:name="course.examples.networking.xml.MainActivity"
+26-->C:\Users\chris\SDA\2019\NetworkXML\app\src\main\AndroidManifest.xml:22:13-71
+27            android:label="@string/app_name" >
+27-->C:\Users\chris\SDA\2019\NetworkXML\app\src\main\AndroidManifest.xml:23:13-45
+28            <intent-filter>
+28-->C:\Users\chris\SDA\2019\NetworkXML\app\src\main\AndroidManifest.xml:24:13-28:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\Users\chris\SDA\2019\NetworkXML\app\src\main\AndroidManifest.xml:25:17-69
+29-->C:\Users\chris\SDA\2019\NetworkXML\app\src\main\AndroidManifest.xml:25:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\Users\chris\SDA\2019\NetworkXML\app\src\main\AndroidManifest.xml:27:17-77
+31-->C:\Users\chris\SDA\2019\NetworkXML\app\src\main\AndroidManifest.xml:27:27-74
+32            </intent-filter>
+33        </activity>
+34    </application>
+35
+36</manifest>

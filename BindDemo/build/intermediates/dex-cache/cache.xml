@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Xing-Dong Yang\Desktop\CS65 code\binddemo\BindDemo\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="df03a1b5a3898d5d8f624ea35134d5b25f79104e">
+        <dex dex="C:\Users\Xing-Dong Yang\Desktop\CS65 code\binddemo\BindDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_a696dfef6bf992a6b1bee174c62a680f986211b0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Xing-Dong Yang\Desktop\CS65 code\binddemo\BindDemo\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d2385b0474fc0c75e17855b3549147dff28de316">
+        <dex dex="C:\Users\Xing-Dong Yang\Desktop\CS65 code\binddemo\BindDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_1eca0add17c41c6a95340ea01175e5a7c65b7f3d\classes.dex" />
+    </item>
+
+</items>

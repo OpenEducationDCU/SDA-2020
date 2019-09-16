@@ -1,0 +1,49 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="course.examples.services.localloggingservice"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\chris\SDA-2019\LoggingServiceClient\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\chris\SDA-2019\LoggingServiceClient\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="course.examples.services.localloggingservice.PERMISSION" />
+11-->C:\Users\chris\SDA-2019\LoggingServiceClient\app\src\main\AndroidManifest.xml:8:5-95
+11-->C:\Users\chris\SDA-2019\LoggingServiceClient\app\src\main\AndroidManifest.xml:8:22-92
+12
+13    <application
+13-->C:\Users\chris\SDA-2019\LoggingServiceClient\app\src\main\AndroidManifest.xml:10:5-26:19
+14        android:allowBackup="false"
+14-->C:\Users\chris\SDA-2019\LoggingServiceClient\app\src\main\AndroidManifest.xml:11:9-36
+15        android:debuggable="true"
+16        android:icon="@drawable/ic_launcher"
+16-->C:\Users\chris\SDA-2019\LoggingServiceClient\app\src\main\AndroidManifest.xml:12:9-45
+17        android:label="@string/app_name" >
+17-->C:\Users\chris\SDA-2019\LoggingServiceClient\app\src\main\AndroidManifest.xml:13:9-41
+18        <activity
+18-->C:\Users\chris\SDA-2019\LoggingServiceClient\app\src\main\AndroidManifest.xml:15:9-23:20
+19            android:name="course.examples.services.localloggingservice.LoggingServiceClient"
+19-->C:\Users\chris\SDA-2019\LoggingServiceClient\app\src\main\AndroidManifest.xml:16:13-93
+20            android:label="@string/app_name" >
+20-->C:\Users\chris\SDA-2019\LoggingServiceClient\app\src\main\AndroidManifest.xml:17:13-45
+21            <intent-filter>
+21-->C:\Users\chris\SDA-2019\LoggingServiceClient\app\src\main\AndroidManifest.xml:18:13-22:29
+22                <action android:name="android.intent.action.MAIN" />
+22-->C:\Users\chris\SDA-2019\LoggingServiceClient\app\src\main\AndroidManifest.xml:19:17-69
+22-->C:\Users\chris\SDA-2019\LoggingServiceClient\app\src\main\AndroidManifest.xml:19:25-66
+23
+24                <category android:name="android.intent.category.LAUNCHER" />
+24-->C:\Users\chris\SDA-2019\LoggingServiceClient\app\src\main\AndroidManifest.xml:21:17-77
+24-->C:\Users\chris\SDA-2019\LoggingServiceClient\app\src\main\AndroidManifest.xml:21:27-74
+25            </intent-filter>
+26        </activity>
+27
+28        <service android:name="course.examples.services.localloggingservice.LoggingService" />
+28-->C:\Users\chris\SDA-2019\LoggingServiceClient\app\src\main\AndroidManifest.xml:25:9-95
+28-->C:\Users\chris\SDA-2019\LoggingServiceClient\app\src\main\AndroidManifest.xml:25:18-92
+29    </application>
+30
+31</manifest>

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\chris\\SDA-2019\\ContentProviderExample\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\chris\\SDA-2019\\ContentProviderExample\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\chris\\SDA-2019\\ContentProviderExample\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item.xml.flat",
+        "source": "C:\\Users\\chris\\SDA-2019\\ContentProviderExample\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\chris\\SDA-2019\\ContentProviderExample\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\chris\\SDA-2019\\ContentProviderExample\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\chris\\SDA-2019\\ContentProviderExample\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\chris\\SDA-2019\\ContentProviderExample\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\chris\\SDA-2019\\ContentProviderExample\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\chris\\SDA-2019\\ContentProviderExample\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    }
+]

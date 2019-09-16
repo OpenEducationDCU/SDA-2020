@@ -1,0 +1,4 @@
+#Thu Jul 25 15:20:50 BST 2019
+base.0=C\:\\Users\\Chris_Coughlan\\Desktop\\Activity_Lifecycle\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,55 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="course.examples.networking.url"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\chris\SDA\2019\NetworkJSON\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\chris\SDA\2019\NetworkJSON\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\chris\SDA\2019\NetworkJSON\app\src\main\AndroidManifest.xml:8:5-67
+11-->C:\Users\chris\SDA\2019\NetworkJSON\app\src\main\AndroidManifest.xml:8:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\chris\SDA\2019\NetworkJSON\app\src\main\AndroidManifest.xml:9:5-79
+12-->C:\Users\chris\SDA\2019\NetworkJSON\app\src\main\AndroidManifest.xml:9:22-76
+13
+14    <application
+14-->C:\Users\chris\SDA\2019\NetworkJSON\app\src\main\AndroidManifest.xml:11:5-29:19
+15        android:allowBackup="false"
+15-->C:\Users\chris\SDA\2019\NetworkJSON\app\src\main\AndroidManifest.xml:12:9-36
+16        android:debuggable="true"
+17        android:icon="@drawable/ic_launcher"
+17-->C:\Users\chris\SDA\2019\NetworkJSON\app\src\main\AndroidManifest.xml:13:9-45
+18        android:label="@string/app_name"
+18-->C:\Users\chris\SDA\2019\NetworkJSON\app\src\main\AndroidManifest.xml:14:9-41
+19        android:testOnly="true"
+20        android:usesCleartextTraffic="true" >
+20-->C:\Users\chris\SDA\2019\NetworkJSON\app\src\main\AndroidManifest.xml:15:9-44
+21        <activity
+21-->C:\Users\chris\SDA\2019\NetworkJSON\app\src\main\AndroidManifest.xml:17:9-25:20
+22            android:name="course.examples.networking.url.NetworkingURLActivity"
+22-->C:\Users\chris\SDA\2019\NetworkJSON\app\src\main\AndroidManifest.xml:18:13-80
+23            android:label="@string/app_name" >
+23-->C:\Users\chris\SDA\2019\NetworkJSON\app\src\main\AndroidManifest.xml:19:13-45
+24            <intent-filter>
+24-->C:\Users\chris\SDA\2019\NetworkJSON\app\src\main\AndroidManifest.xml:20:13-24:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Users\chris\SDA\2019\NetworkJSON\app\src\main\AndroidManifest.xml:21:17-69
+25-->C:\Users\chris\SDA\2019\NetworkJSON\app\src\main\AndroidManifest.xml:21:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\chris\SDA\2019\NetworkJSON\app\src\main\AndroidManifest.xml:23:17-77
+27-->C:\Users\chris\SDA\2019\NetworkJSON\app\src\main\AndroidManifest.xml:23:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity android:name="course.examples.networking.url.NetworkJsonActivity" >
+30-->C:\Users\chris\SDA\2019\NetworkJSON\app\src\main\AndroidManifest.xml:27:9-28:20
+30-->C:\Users\chris\SDA\2019\NetworkJSON\app\src\main\AndroidManifest.xml:27:19-84
+31        </activity>
+32    </application>
+33
+34</manifest>
