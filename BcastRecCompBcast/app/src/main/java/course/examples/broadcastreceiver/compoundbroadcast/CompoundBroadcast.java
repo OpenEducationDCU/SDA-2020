@@ -10,7 +10,7 @@ import android.view.View;
 public class CompoundBroadcast extends Activity {
 
     private static final String CUSTOM_INTENT = "course.examples.broadcastreceiver.compoundbroadcast.SHOW_TOAST";
-    private final Receiver1 mReceiver1 = new Receiver1();
+    private final Receiver1 mReceiver = new Receiver1();
     private final IntentFilter mIntentFilter = new IntentFilter(CUSTOM_INTENT);
 
 
@@ -28,12 +28,12 @@ public class CompoundBroadcast extends Activity {
     @Override
     protected void onStart() {
         super.onStart();
-        registerReceiver(mReceiver1, mIntentFilter);
+        registerReceiver(mReceiver, mIntentFilter);
     }
 
     @Override
     protected void onStop() {
-        unregisterReceiver(mReceiver1);
+        unregisterReceiver(mReceiver);
         super.onStop();
     }
 }
