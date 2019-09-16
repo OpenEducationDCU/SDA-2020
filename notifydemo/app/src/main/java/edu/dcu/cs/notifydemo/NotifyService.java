@@ -114,7 +114,7 @@ public class NotifyService extends Service {
 					.setContentTitle(notificationTitle)
 					.setAutoCancel(true)
 					.setContentText(notificationText)
-					.setSmallIcon(R.drawable.icon)
+					.setSmallIcon(R.drawable.ic_stat_access_alarm)
 					.setChannelId(CHANNEL_ID)
 					.setContentIntent(pendingIntent).build();
 
@@ -128,7 +128,7 @@ public class NotifyService extends Service {
 					.setSound(mSoundURI)
 					.setVibrate(mVibratePattern)
 					.setContentText(notificationText)
-					.setSmallIcon(R.drawable.icon)
+					.setSmallIcon(R.drawable.ic_stat_access_alarm)
 					.setContentIntent(pendingIntent).build();
 
 		}

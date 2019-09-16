@@ -37,6 +37,7 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+drawable ic_stat_access_alarm
 drawable icon
 drawable notification_action_background
 drawable notification_bg
