@@ -133,9 +133,8 @@ public class DiscussionActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Map<String, Object> map = new HashMap<>();
+                //get the key for the current topic
                 mTempKey = chatDb.push().getKey();
-                chatDb.updateChildren(map);
 
                 DatabaseReference chatDB2 = chatDb.child(mTempKey);
                 Map<String, Object> map2 = new HashMap<>();

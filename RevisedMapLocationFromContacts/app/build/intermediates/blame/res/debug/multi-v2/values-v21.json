@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\chris\\SDA\\2019\\RevisedMapLocationFromContacts\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "C:\\Users\\chris\\SDA-2019\\RevisedMapLocationFromContacts\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\chris\\.gradle\\caches\\transforms-2\\files-2.1\\d1a6c7ee41fbe72753318d9586f1a513\\support-media-compat-28.0.0\\res\\values-v21\\values-v21.xml",

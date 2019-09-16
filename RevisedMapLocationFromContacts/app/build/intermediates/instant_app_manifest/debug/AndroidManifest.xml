@@ -16,8 +16,7 @@
         android:allowBackup="false"
         android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
         android:debuggable="true"
-        android:icon="@drawable/ic_launcher"
-        android:testOnly="true" >
+        android:icon="@drawable/ic_launcher" >
         <activity
             android:name="course.examples.newmaplocationfromcontacts.NewMapLocationFromContactsActivity"
             android:label="NewMapLocationFromContacts" >

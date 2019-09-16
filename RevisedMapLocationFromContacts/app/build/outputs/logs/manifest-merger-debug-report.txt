@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:2:1-26:12
 MERGED from [com.android.support:support-v4:28.0.0] C:\Users\chris\.gradle\caches\transforms-2\files-2.1\69ee415b12564ec70670df83c9fdfa6f\support-v4-28.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\chris\.gradle\caches\transforms-2\files-2.1\d1a6c7ee41fbe72753318d9586f1a513\support-media-compat-28.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\chris\.gradle\caches\transforms-2\files-2.1\59df75d251431efe4d450d41cc6b083b\support-fragment-28.0.0\AndroidManifest.xml:17:1-22:12
@@ -29,31 +29,31 @@ MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\chris\.gradle\cach
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\chris\.gradle\caches\transforms-2\files-2.1\b5f1a18436322a4d6243b4d563cfece4\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\chris\.gradle\caches\transforms-2\files-2.1\6104c576404b17797d5f42ae60105d1d\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\chris\.gradle\caches\transforms-2\files-2.1\7c5e711cb7599bc18a19cc1df98bc8d6\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
-		ADDED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:4:5-57
-		INJECTED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:4:5-57
+		INJECTED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:6:5-30
-		INJECTED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:6:5-30
+		INJECTED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:3:5-51
 	xmlns:android
-		ADDED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:5:5-28
-		INJECTED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:5:5-28
+		INJECTED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.READ_CONTACTS
-ADDED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:8:5-9:23
+ADDED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:8:5-9:23
 	android:name
-		ADDED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:8:22-69
+		ADDED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:8:22-69
 application
-ADDED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:11:5-24:19
+ADDED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:11:5-24:19
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\chris\.gradle\caches\transforms-2\files-2.1\dd1cf78f22bdd94f550130b281f27c97\support-compat-28.0.0\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\chris\.gradle\caches\transforms-2\files-2.1\dd1cf78f22bdd94f550130b281f27c97\support-compat-28.0.0\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\chris\.gradle\caches\transforms-2\files-2.1\8bb2478d12c0baf5b421024800cd7dbb\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
@@ -61,31 +61,31 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\chris\.gra
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\chris\.gradle\caches\transforms-2\files-2.1\dd1cf78f22bdd94f550130b281f27c97\support-compat-28.0.0\AndroidManifest.xml:22:18-91
 	tools:ignore
-		ADDED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:14:9-48
+		ADDED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:14:9-48
 	android:icon
-		ADDED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:13:9-45
+		ADDED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:13:9-45
 	android:allowBackup
-		ADDED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:12:9-36
+		ADDED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:12:9-36
 activity#course.examples.newmaplocationfromcontacts.NewMapLocationFromContactsActivity
-ADDED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:15:9-23:20
+ADDED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:15:9-23:20
 	android:label
-		ADDED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:17:13-55
+		ADDED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:17:13-55
 	android:name
-		ADDED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:16:13-63
+		ADDED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:16:13-63
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml:21:27-74
 uses-sdk
-INJECTED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support:support-v4:28.0.0] C:\Users\chris\.gradle\caches\transforms-2\files-2.1\69ee415b12564ec70670df83c9fdfa6f\support-v4-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:28.0.0] C:\Users\chris\.gradle\caches\transforms-2\files-2.1\69ee415b12564ec70670df83c9fdfa6f\support-v4-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\chris\.gradle\caches\transforms-2\files-2.1\d1a6c7ee41fbe72753318d9586f1a513\support-media-compat-28.0.0\AndroidManifest.xml:20:5-44
@@ -136,13 +136,13 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\chris\.gradle\
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\chris\.gradle\caches\transforms-2\files-2.1\6104c576404b17797d5f42ae60105d1d\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\chris\.gradle\caches\transforms-2\files-2.1\7c5e711cb7599bc18a19cc1df98bc8d6\runtime-1.1.1\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\chris\.gradle\caches\transforms-2\files-2.1\7c5e711cb7599bc18a19cc1df98bc8d6\runtime-1.1.1\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\chris\SDA\2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chris\SDA-2019\RevisedMapLocationFromContacts\app\src\main\AndroidManifest.xml
