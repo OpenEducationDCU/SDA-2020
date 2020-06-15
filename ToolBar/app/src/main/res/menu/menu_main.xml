@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_setting"
+        android:orderInCategory="2"
+        android:title="@string/settings"
+        android:icon="@drawable/build_24px"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/action_favorite"
+        android:orderInCategory="1"
+        android:title="@string/favourite"
+        android:icon="@drawable/favorite_24px"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <group>
+        <item
+            android:id="@+id/action_second"
+            android:orderInCategory="4"
+            app:showAsAction="never"
+            android:title="second">
+        </item>
+        <item
+            android:id="@+id/action_first"
+            android:orderInCategory="3"
+            app:showAsAction="never"
+            android:title="first">
+        </item>
+    </group>
+
+</menu>
