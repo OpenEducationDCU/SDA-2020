@@ -1,7 +1,7 @@
 package sda.oscail.edu.actiontabs;
 
-import android.support.annotation.NonNull;
-import android.support.v4.app.Fragment;
+import androidx.annotation.NonNull;
+import androidx.fragment.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,5 +17,4 @@ public class MeetFragment extends Fragment {
         ImageView imageFragment = root.findViewById(R.id.imageViewOfCampus);
         return root;
     }
-
 }

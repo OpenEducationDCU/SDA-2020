@@ -2,14 +2,13 @@ package sda.oscail.edu.actiontabs;
 
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v4.app.Fragment;
+import androidx.annotation.NonNull;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
+import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.TextView;
 
 
@@ -22,10 +21,7 @@ public class ChatFragment extends Fragment
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-
         View root = inflater.inflate(R.layout.chatfragment, container, false);
-
-
 
         FloatingActionButton fab = root.findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener()
@@ -37,7 +33,7 @@ public class ChatFragment extends Fragment
                         .setAction("Increment", mOnClickListener).setActionTextColor(Color.GREEN);
                 View sbView = snackbar.getView();
                 sbView.setBackgroundColor(Color.parseColor("#3f51b5"));
-                TextView tv = sbView.findViewById(android.support.design.R.id.snackbar_text);
+                TextView tv = sbView.findViewById(R.id.snackbar_text);
                 tv.setTextColor(Color.WHITE);
                 snackbar.show();
             }

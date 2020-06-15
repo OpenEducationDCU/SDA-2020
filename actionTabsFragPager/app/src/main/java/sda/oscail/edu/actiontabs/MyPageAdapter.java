@@ -1,11 +1,12 @@
 package sda.oscail.edu.actiontabs;
 /**
  * Created by ckirwan on 18/06/2016.
+ * Updated by Christ Coughlan on 15/06/2020
  */
 
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentStatePagerAdapter;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentStatePagerAdapter;
 
 public class MyPageAdapter extends FragmentStatePagerAdapter
 {
@@ -21,10 +22,9 @@ public class MyPageAdapter extends FragmentStatePagerAdapter
     private static final String UI_TAB_MEET = "MEET";
     private static final String UI_TAB_PARTY = "PARTY";
 
-
     public MyPageAdapter(FragmentManager fm, int NumOfTabs)
     {
-        super(fm);
+        super(fm, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
         this.mNumOfTabs = NumOfTabs;
     }
 
