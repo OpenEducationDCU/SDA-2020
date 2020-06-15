@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "2526985241",
+    "firebase_url": "https://sdafirebase01.firebaseio.com",
+    "project_id": "sdafirebase01",
+    "storage_bucket": "sdafirebase01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2526985241:android:1c40d558032a5676917e88",
+        "android_client_info": {
+          "package_name": "com.example.firenosqldatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2526985241-bsere8rv7vo141h83runrd94b1g405g3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firenosqldatabase",
+            "certificate_hash": "57f8d322eaa5bfa3046fa6b5ca2218d6eef62299"
+          }
+        },
+        {
+          "client_id": "2526985241-7vg4pk18s1j2bp4numh4c9fakmk0d36k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAABzATki3k1-sPVwyb4mlqm2Ynwmq-J2o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2526985241-7vg4pk18s1j2bp4numh4c9fakmk0d36k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

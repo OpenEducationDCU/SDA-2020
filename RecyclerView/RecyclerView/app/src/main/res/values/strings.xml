@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+    <string name="recycler_image_placeholder">recycler Image placeholder</string>
+</resources>

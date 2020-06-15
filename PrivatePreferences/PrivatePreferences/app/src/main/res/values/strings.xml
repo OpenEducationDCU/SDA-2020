@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PrivatePreferences</string>
+    <string name="default_text">default text</string>
+    <string name="click_me">Click me:</string>
+    <string name="hint">Add your name here</string>
+    <string name="save_my_name">Save my name</string>
+    <string name="selected">The switch is selected</string>
+    <string name="notSelected">The switch is not selected</string>
+</resources>

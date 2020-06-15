@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ArrayAdapterActivity</string>
+    <string name="welcomestring">Hello World!</string>
+    <string name="array_image">array_image</string>
+</resources>

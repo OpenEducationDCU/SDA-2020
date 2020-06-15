@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SimpleAsyncTask</string>
+    <string name="execute">Executed</string>
+</resources>

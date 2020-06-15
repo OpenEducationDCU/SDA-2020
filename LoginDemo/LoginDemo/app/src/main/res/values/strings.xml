@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LoginDemo</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Register</string>
+    <string name="already_have_an_account_sign_in_here">Already have an account? Sign in here</string>
+    <string name="login_in">Login In</string>
+    <string name="new_user_register_here">New User? Register Here</string>
+    <string name="welcome">Welcome!</string>
+    <string name="logout">Logout</string>
+</resources>

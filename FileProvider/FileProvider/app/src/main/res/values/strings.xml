@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FileProvider</string>
+    <string name="image_will_be_saved_locally_to_external_storage">Image will be saved locally to external storage</string>
+</resources>

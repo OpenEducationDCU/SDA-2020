@@ -1,0 +1,79 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\chris\\SDA-2019\\ThreadingSimple\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\chris\\SDA-2019\\ThreadingSimple\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "4,7,2,3,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "144,281,55,97,185,232,325",
+                        "endColumns": "40,43,41,46,46,48,39",
+                        "endOffsets": "180,320,92,139,227,276,360"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,96,140,182,229,276,325",
+                        "endColumns": "40,43,41,46,46,48,39",
+                        "endOffsets": "91,135,177,224,271,320,360"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\chris\\SDA-2019\\ThreadingSimple\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "127",
+                        "endColumns": "46",
+                        "endOffsets": "169"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "365",
+                        "endColumns": "46",
+                        "endOffsets": "407"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\chris\\SDA-2019\\ThreadingSimple\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,5,3,4",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,224,108,163",
+                        "endColumns": "52,51,54,60",
+                        "endOffsets": "103,271,158,219"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "412,465,517,572",
+                        "endColumns": "52,51,54,60",
+                        "endOffsets": "460,512,567,628"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\chris\\SDA-2019\\ThreadingSimple\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "633"
+                    },
+                    "to": {
+                        "startLines": "14",
+                        "startColumns": "4",
+                        "startOffsets": "633",
+                        "endLines": "22",
+                        "endColumns": "12",
+                        "endOffsets": "1211"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FireNoSQLDatabase</string>
+    <string name="defaultString">Hello World!</string>
+    <string name="food">food</string>
+    <string name="next">NEXT</string>
+    <string name="recycler_image_placeholder">placeholder</string>
+    <string name="specials">Daily Special</string>
+    <string name="add_meal">Add Meal</string>
+    <string name="full_menu">Full Menu</string>
+    <string name="meal_name">Add the meal name</string>
+    <string name="add_the_course">Add the Course, starter, main so-on</string>
+    <string name="upload">Upload</string>
+    <string name="add_new_food_type">Add new food type</string>
+</resources>
