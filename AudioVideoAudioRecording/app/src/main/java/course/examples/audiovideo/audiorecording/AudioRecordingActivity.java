@@ -8,21 +8,22 @@ import android.media.AudioManager;
 import android.media.AudioManager.OnAudioFocusChangeListener;
 import android.media.MediaPlayer;
 import android.media.MediaRecorder;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
+import android.provider.MediaStore;
 import android.util.Log;
 import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
+import java.io.File;
 import java.io.IOException;
-
 public class AudioRecordingActivity extends Activity {
     private static final String TAG = "AudioRecordTest";
-    private static final String mFileName = Environment
-            .getExternalStorageDirectory().getAbsolutePath()
-            + "/audiorecordtest.3gp";
+    private static final String mFileName = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_MUSIC) + "/audiorecordtest.3gp";
+
     private MediaRecorder mRecorder;
     private MediaPlayer mPlayer;
     private AudioManager mAudioManager;

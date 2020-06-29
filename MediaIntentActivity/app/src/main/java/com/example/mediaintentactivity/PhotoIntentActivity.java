@@ -94,10 +94,10 @@ public class PhotoIntentActivity extends AppCompatActivity {
     private Uri mVideoURI;
 
     /**
-     * Overrides onCreate, inflates the UI from photo_intent.xml and sets the views (widgets for this activity)
-     * Sets Four Button onClick listeners for image / video capture buttons in the UI
-     * On each button run the setBtnListenerOrDisable method to disable the button if the intent cannot be called
-     * Each button opens one of the dispatch* methods and the {@link #setVisibility(int state)}
+     * Overrides onCreate lifecycle method, inflates the UI from photo_intent.xml and sets the views (widgets for this activity)
+     * Sets Four Button onClick listeners, three image and one video capture button in the UI
+     * On each button it adds a {@link #setBtnListenerOrDisable} method that disables the button if the intent cannot be called
+     * Each button opens one of the dispatch* methods and the {@link #setVisibility}
      * @param savedInstanceState bundles the activity state for the application
      */
     @Override
@@ -508,6 +508,7 @@ public class PhotoIntentActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 
+        super.onActivityResult(requestCode, resultCode, data);
         switch (requestCode) {
             case REQUEST_IMAGE_CAPTURE: {
                 if (resultCode == RESULT_OK) {

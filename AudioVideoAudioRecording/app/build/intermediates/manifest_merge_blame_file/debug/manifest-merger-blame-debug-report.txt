@@ -4,46 +4,47 @@
 4
 5    <uses-sdk
 6        android:minSdkVersion="23"
-6-->C:\Users\chris\SDA\2019\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml
+6-->E:\SDA-2020\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml
 7        android:targetSdkVersion="28" />
-7-->C:\Users\chris\SDA\2019\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml
+7-->E:\SDA-2020\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml
 8
 9    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-9-->C:\Users\chris\SDA\2019\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml:6:5-81
-9-->C:\Users\chris\SDA\2019\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml:6:22-78
+9-->E:\SDA-2020\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml:6:5-81
+9-->E:\SDA-2020\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml:6:22-78
 10    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-10-->C:\Users\chris\SDA\2019\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml:7:5-71
-10-->C:\Users\chris\SDA\2019\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml:7:22-68
+10-->E:\SDA-2020\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml:7:5-71
+10-->E:\SDA-2020\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml:7:22-68
 11
 12    <application
-12-->C:\Users\chris\SDA\2019\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml:9:5-24:19
+12-->E:\SDA-2020\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml:9:5-24:19
 13        android:allowBackup="false"
-13-->C:\Users\chris\SDA\2019\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml:10:9-36
+13-->E:\SDA-2020\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml:10:9-36
 14        android:debuggable="true"
-15        android:icon="@mipmap/ic_launcher"
-15-->C:\Users\chris\SDA\2019\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml:11:9-43
-16        android:label="@string/app_name"
-16-->C:\Users\chris\SDA\2019\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml:12:9-41
-17        android:testOnly="true"
-18        android:theme="@style/MaterialTheme" >
-18-->C:\Users\chris\SDA\2019\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml:13:9-45
-19        <activity
-19-->C:\Users\chris\SDA\2019\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml:15:9-23:20
-20            android:name="course.examples.audiovideo.audiorecording.AudioRecordingActivity"
-20-->C:\Users\chris\SDA\2019\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml:16:13-51
-21            android:label="@string/app_name" >
-21-->C:\Users\chris\SDA\2019\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml:17:13-45
-22            <intent-filter>
-22-->C:\Users\chris\SDA\2019\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml:18:13-22:29
-23                <action android:name="android.intent.action.MAIN" />
-23-->C:\Users\chris\SDA\2019\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml:19:17-69
-23-->C:\Users\chris\SDA\2019\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml:19:25-66
-24
-25                <category android:name="android.intent.category.LAUNCHER" />
-25-->C:\Users\chris\SDA\2019\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml:21:17-77
-25-->C:\Users\chris\SDA\2019\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml:21:27-74
-26            </intent-filter>
-27        </activity>
-28    </application>
-29
-30</manifest>
+15        android:extractNativeLibs="false"
+16        android:icon="@mipmap/ic_launcher"
+16-->E:\SDA-2020\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml:11:9-43
+17        android:label="@string/app_name"
+17-->E:\SDA-2020\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml:12:9-41
+18        android:testOnly="true"
+19        android:theme="@style/MaterialTheme" >
+19-->E:\SDA-2020\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml:13:9-45
+20        <activity
+20-->E:\SDA-2020\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml:15:9-23:20
+21            android:name="course.examples.audiovideo.audiorecording.AudioRecordingActivity"
+21-->E:\SDA-2020\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml:16:13-51
+22            android:label="@string/app_name" >
+22-->E:\SDA-2020\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml:17:13-45
+23            <intent-filter>
+23-->E:\SDA-2020\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml:18:13-22:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->E:\SDA-2020\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml:19:17-69
+24-->E:\SDA-2020\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml:19:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->E:\SDA-2020\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml:21:17-77
+26-->E:\SDA-2020\AudioVideoAudioRecording\app\src\main\AndroidManifest.xml:21:27-74
+27            </intent-filter>
+28        </activity>
+29    </application>
+30
+31</manifest>
