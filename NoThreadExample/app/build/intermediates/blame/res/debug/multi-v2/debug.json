@@ -1,16 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\chris\\SDA\\2019\\NoThreadExample\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "outputFile": "E:\\SDA-2020\\NoThreadExample\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\chris\\SDA\\2019\\NoThreadExample\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "E:\\SDA-2020\\NoThreadExample\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "3,2",
                         "startColumns": "4,4",
-                        "startOffsets": "120,55",
+                        "startOffsets": "123,57",
                         "endColumns": "53,64",
-                        "endOffsets": "169,115"
+                        "endOffsets": "172,117"
                     },
                     "to": {
                         "startLines": "2,3",

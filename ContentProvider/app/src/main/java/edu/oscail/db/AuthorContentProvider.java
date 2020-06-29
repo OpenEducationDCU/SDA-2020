@@ -9,17 +9,13 @@ import android.database.sqlite.SQLiteDatabase;
 import android.net.Uri;
 
 public class AuthorContentProvider extends ContentProvider {
+
     public AuthorContentProvider() {
     }
 
-    public static final Uri CONTENT_URI = Uri
-            .parse("content://edu.oscail.db/author_titles_year");
+    public static final Uri CONTENT_URI = Uri.parse("content://edu.oscail.db/author_titles_year");
     private static final int ALLROWS = 1;
     private static final int SINGLE_ROW = 2;
-
-    private static final String AUTHOR_DB = "author_db";
-
-
 
     SqlLiteHelper m_helper = null;
     SQLiteDatabase m_db = null;
@@ -31,10 +27,7 @@ public class AuthorContentProvider extends ContentProvider {
                 "author_titles_year",ALLROWS );
         uriMatcher.addURI("edu.oscail.db",
                 "author_titles_year/#", SINGLE_ROW);
-
     }
-
-
 
     @Override
     public boolean onCreate() {

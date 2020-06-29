@@ -1,22 +1,22 @@
 [
     {
-        "merged": "C:\\Users\\chris\\SDA\\2019\\NoThreadExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon.png.flat",
-        "source": "C:\\Users\\chris\\SDA\\2019\\NoThreadExample\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
+        "merged": "E:\\SDA-2020\\NoThreadExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_icon.png.flat",
+        "source": "E:\\SDA-2020\\NoThreadExample\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
     },
     {
-        "merged": "C:\\Users\\chris\\SDA\\2019\\NoThreadExample\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
-        "source": "C:\\Users\\chris\\SDA\\2019\\NoThreadExample\\app\\src\\main\\res\\layout\\main.xml"
+        "merged": "E:\\SDA-2020\\NoThreadExample\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
+        "source": "E:\\SDA-2020\\NoThreadExample\\app\\src\\main\\res\\layout\\main.xml"
     },
     {
-        "merged": "C:\\Users\\chris\\SDA\\2019\\NoThreadExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_painter.png.flat",
-        "source": "C:\\Users\\chris\\SDA\\2019\\NoThreadExample\\app\\src\\main\\res\\drawable-hdpi\\painter.png"
+        "merged": "E:\\SDA-2020\\NoThreadExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon.png.flat",
+        "source": "E:\\SDA-2020\\NoThreadExample\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
     },
     {
-        "merged": "C:\\Users\\chris\\SDA\\2019\\NoThreadExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon.png.flat",
-        "source": "C:\\Users\\chris\\SDA\\2019\\NoThreadExample\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+        "merged": "E:\\SDA-2020\\NoThreadExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_painter.png.flat",
+        "source": "E:\\SDA-2020\\NoThreadExample\\app\\src\\main\\res\\drawable-hdpi\\painter.png"
     },
     {
-        "merged": "C:\\Users\\chris\\SDA\\2019\\NoThreadExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_icon.png.flat",
-        "source": "C:\\Users\\chris\\SDA\\2019\\NoThreadExample\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
+        "merged": "E:\\SDA-2020\\NoThreadExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon.png.flat",
+        "source": "E:\\SDA-2020\\NoThreadExample\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
     }
 ]

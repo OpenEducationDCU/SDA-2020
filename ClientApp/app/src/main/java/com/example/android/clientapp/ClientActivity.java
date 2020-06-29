@@ -11,7 +11,6 @@ import android.widget.TextView;
 public class ClientActivity extends Activity {
     TextView m_textView;
     Cursor m_cursor = null;
-
     ContentResolver m_resolver = null;
 
     public static final Uri CONTENT_URI = Uri
@@ -22,23 +21,19 @@ public class ClientActivity extends Activity {
         super.onCreate(bundle);
         setContentView(R.layout.activity_main);
         ContentValues values = new ContentValues();
-
         m_textView = (TextView) findViewById(R.id.textView1);
 
         // INSERT
         insertAuthors();
         addToTextView(CONTENT_URI);
-
         values.clear();
+
         // UPDATE
         values.put("year", "2011");
-
-        m_resolver.update(CONTENT_URI, values, "author='Jasper Fforde'", null);
-
+        m_resolver.update(CONTENT_URI, values, "author='Jasper Forde'", null);
         addToTextView(CONTENT_URI);
 
-        m_resolver.delete(CONTENT_URI, null, null);
-
+        m_resolver.delete(CONTENT_URI, "author='Jane Austen'", null);
         addToTextView(CONTENT_URI);
 
     }
@@ -55,7 +50,7 @@ public class ClientActivity extends Activity {
 
         values.clear();
 
-        values.put("author", "Jasper Fforde");
+        values.put("author", "Jasper Forde");
         values.put("title", "The Eyre Affair");
         values.put("year", 2010);
         m_resolver.insert(CONTENT_URI, values);

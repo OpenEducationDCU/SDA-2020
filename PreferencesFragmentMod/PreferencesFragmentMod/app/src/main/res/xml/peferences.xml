@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 
-<android.support.v7.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
 
 <PreferenceCategory
     android:title="@string/inline_preferences">
@@ -15,7 +15,6 @@
         android:key="Notifications"
         android:title="notification slider"
         android:summary="Enable message notifications"/>
-
 </PreferenceCategory>
 
 <PreferenceCategory
@@ -67,4 +66,4 @@
 
 </PreferenceCategory>
 
-</android.support.v7.preference.PreferenceScreen>
+</androidx.preference.PreferenceScreen>

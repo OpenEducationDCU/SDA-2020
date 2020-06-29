@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AudioVideoVideoPlay.iml" filepath="$PROJECT_DIR$/AudioVideoVideoPlay.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AudioVideoVideoPlay.iml" filepath="$PROJECT_DIR$/AudioVideoVideoPlay.iml" group="AudioVideoVideoPlay" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="AudioVideoVideoPlay/app" />
     </modules>
   </component>
 </project>

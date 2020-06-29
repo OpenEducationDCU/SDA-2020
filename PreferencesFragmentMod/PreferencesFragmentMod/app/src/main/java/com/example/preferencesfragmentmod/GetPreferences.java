@@ -1,11 +1,15 @@
 package com.example.preferencesfragmentmod;
 
 import android.content.SharedPreferences;
-import android.preference.PreferenceManager;
-import android.support.v7.app.AppCompatActivity;
+import androidx.preference.PreferenceManager;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
+/**
+ * This gets the preferences from shared preferences and displays information on it's UI.
+ * @author chris coughlan 2019
+ */
 public class GetPreferences extends AppCompatActivity {
 
     @Override
@@ -13,22 +17,22 @@ public class GetPreferences extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_get_preferences);
 
-        TextView myText = findViewById(R.id.favAnimal);
-        TextView myswitch = findViewById(R.id.switchResult);
+        TextView mText = findViewById(R.id.favAnimal);
+        TextView mSwitch = findViewById(R.id.switchResult);
 
         //get the values from the shared preferences fragment
         SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplication());
 
         //get the string from the textEdit preference
-        String favAnimal=sharedPreferences.getString("edittext_preference","nothing added yet");
-        myText.setText(favAnimal);
+        String favAnimal=sharedPreferences.getString("edittext_preference", getString(R.string.summary_edittext_preference));
+        mText.setText(favAnimal);
 
         //get the selection from the switch.
-        boolean mySwitch =sharedPreferences.getBoolean("Notifications",false);
-        if(mySwitch) {
-            myswitch.setText(getResources().getString(R.string.switchOn));
+        boolean newSwitch =sharedPreferences.getBoolean("Notifications",false);
+        if(newSwitch) {
+            mSwitch.setText(getResources().getString(R.string.switchOn));
         } else {
-            myswitch.setText(getResources().getString(R.string.switchOff));
+            mSwitch.setText(getResources().getString(R.string.switchOff));
         }
 
     }

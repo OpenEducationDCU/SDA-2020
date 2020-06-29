@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/NoThreadExample.iml" filepath="$PROJECT_DIR$/NoThreadExample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NoThreadExample.iml" filepath="$PROJECT_DIR$/NoThreadExample.iml" group="NoThreadExample" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="NoThreadExample/app" />
     </modules>
   </component>
 </project>

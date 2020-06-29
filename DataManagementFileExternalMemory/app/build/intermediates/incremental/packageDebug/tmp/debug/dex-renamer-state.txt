@@ -1,4 +1,4 @@
-#Mon Sep 16 11:55:30 BST 2019
-base.0=C\:\\Users\\chris\\SDA-2019\\DataManagementFileExternalMemory\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+#Wed Jun 24 10:01:49 BST 2020
+base.0=E\:\\SDA-2020\\DataManagementFileExternalMemory\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

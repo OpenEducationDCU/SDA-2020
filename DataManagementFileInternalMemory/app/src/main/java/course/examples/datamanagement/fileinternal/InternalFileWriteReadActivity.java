@@ -33,7 +33,6 @@ public class InternalFileWriteReadActivity extends Activity {
 		// by the openFileOutput() method.
 		// If the text file doesn't exist, then create it now
 
-
 		if (!getFileStreamPath(fileName).exists()) {
 			try {
 				writeFile();

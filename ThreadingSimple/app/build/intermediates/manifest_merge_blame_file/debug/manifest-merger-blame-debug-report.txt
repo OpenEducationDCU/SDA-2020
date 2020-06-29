@@ -6,38 +6,39 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
-8-->C:\Users\chris\SDA-2019\ThreadingSimple\app\src\main\AndroidManifest.xml
+8-->E:\SDA-2020\ThreadingSimple\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="28" />
-9-->C:\Users\chris\SDA-2019\ThreadingSimple\app\src\main\AndroidManifest.xml
+9-->E:\SDA-2020\ThreadingSimple\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\chris\SDA-2019\ThreadingSimple\app\src\main\AndroidManifest.xml:8:5-23:19
+11-->E:\SDA-2020\ThreadingSimple\app\src\main\AndroidManifest.xml:8:5-23:19
 12        android:allowBackup="false"
-12-->C:\Users\chris\SDA-2019\ThreadingSimple\app\src\main\AndroidManifest.xml:12:9-36
+12-->E:\SDA-2020\ThreadingSimple\app\src\main\AndroidManifest.xml:12:9-36
 13        android:debuggable="true"
 14        android:icon="@mipmap/ic_launcher"
-14-->C:\Users\chris\SDA-2019\ThreadingSimple\app\src\main\AndroidManifest.xml:9:9-43
+14-->E:\SDA-2020\ThreadingSimple\app\src\main\AndroidManifest.xml:9:9-43
 15        android:label="@string/app_name"
-15-->C:\Users\chris\SDA-2019\ThreadingSimple\app\src\main\AndroidManifest.xml:11:9-41
-16        android:theme="@style/MaterialTheme" >
-16-->C:\Users\chris\SDA-2019\ThreadingSimple\app\src\main\AndroidManifest.xml:10:9-45
-17        <activity
-17-->C:\Users\chris\SDA-2019\ThreadingSimple\app\src\main\AndroidManifest.xml:14:9-22:20
-18            android:name="course.examples.threading.threadingsimple.SimpleThreadingExample"
-18-->C:\Users\chris\SDA-2019\ThreadingSimple\app\src\main\AndroidManifest.xml:15:13-50
-19            android:label="@string/app_name" >
-19-->C:\Users\chris\SDA-2019\ThreadingSimple\app\src\main\AndroidManifest.xml:16:13-45
-20            <intent-filter>
-20-->C:\Users\chris\SDA-2019\ThreadingSimple\app\src\main\AndroidManifest.xml:17:13-21:29
-21                <action android:name="android.intent.action.MAIN" />
-21-->C:\Users\chris\SDA-2019\ThreadingSimple\app\src\main\AndroidManifest.xml:18:17-69
-21-->C:\Users\chris\SDA-2019\ThreadingSimple\app\src\main\AndroidManifest.xml:18:25-66
-22
-23                <category android:name="android.intent.category.LAUNCHER" />
-23-->C:\Users\chris\SDA-2019\ThreadingSimple\app\src\main\AndroidManifest.xml:20:17-77
-23-->C:\Users\chris\SDA-2019\ThreadingSimple\app\src\main\AndroidManifest.xml:20:27-74
-24            </intent-filter>
-25        </activity>
-26    </application>
-27
-28</manifest>
+15-->E:\SDA-2020\ThreadingSimple\app\src\main\AndroidManifest.xml:11:9-41
+16        android:testOnly="true"
+17        android:theme="@style/MaterialTheme" >
+17-->E:\SDA-2020\ThreadingSimple\app\src\main\AndroidManifest.xml:10:9-45
+18        <activity
+18-->E:\SDA-2020\ThreadingSimple\app\src\main\AndroidManifest.xml:14:9-22:20
+19            android:name="course.examples.threading.threadingsimple.SimpleThreadingExample"
+19-->E:\SDA-2020\ThreadingSimple\app\src\main\AndroidManifest.xml:15:13-50
+20            android:label="@string/app_name" >
+20-->E:\SDA-2020\ThreadingSimple\app\src\main\AndroidManifest.xml:16:13-45
+21            <intent-filter>
+21-->E:\SDA-2020\ThreadingSimple\app\src\main\AndroidManifest.xml:17:13-21:29
+22                <action android:name="android.intent.action.MAIN" />
+22-->E:\SDA-2020\ThreadingSimple\app\src\main\AndroidManifest.xml:18:17-69
+22-->E:\SDA-2020\ThreadingSimple\app\src\main\AndroidManifest.xml:18:25-66
+23
+24                <category android:name="android.intent.category.LAUNCHER" />
+24-->E:\SDA-2020\ThreadingSimple\app\src\main\AndroidManifest.xml:20:17-77
+24-->E:\SDA-2020\ThreadingSimple\app\src\main\AndroidManifest.xml:20:27-74
+25            </intent-filter>
+26        </activity>
+27    </application>
+28
+29</manifest>

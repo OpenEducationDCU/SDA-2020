@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ThreadingJava</string>
+    <string name="load_icon_string">Load Icon</string>
+    <string name="other_button_string">Run a Toast on main UI thread</string>
+    <string name="image_desc_string">Image</string>
+    <string name="run_asynchronous_threads">Run Executor Example</string>
+</resources>

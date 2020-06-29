@@ -35,48 +35,48 @@ public class SharedPreferenceReadWriteActivity extends Activity {
             mGameScore.setText(savedInstanceState.getString(GAME_SCORE_KEY));
         }
 
-        // Play Button
-        final Button playButton = findViewById(R.id.play_button);
-        playButton.setOnClickListener(new OnClickListener() {
+// Play Button
+final Button playButton = findViewById(R.id.play_button);
+playButton.setOnClickListener(new OnClickListener() {
 
-            @Override
-            public void onClick(View v) {
+    @Override
+    public void onClick(View v) {
 
-                Random r = new Random();
-                int val = r.nextInt(1000);
-                mGameScore.setText(String.valueOf(val));
+        Random r = new Random();
+        int val = r.nextInt(1000);
+        mGameScore.setText(String.valueOf(val));
 
-                // Get Stored High Score
-                if (val > prefs.getInt(HIGH_SCORE_KEY, 0)) {
+        // Get Stored High Score
+        if (val > prefs.getInt(HIGH_SCORE_KEY, 0)) {
 
-                    // Get and edit high score
-                    SharedPreferences.Editor editor = prefs.edit();
-                    editor.putInt(HIGH_SCORE_KEY, val);
-                    editor.apply();
+            // Get and edit high score
+            SharedPreferences.Editor editor = prefs.edit();
+            editor.putInt(HIGH_SCORE_KEY, val);
+            editor.apply();
 
-                    mHighScore.setText(String.valueOf(val));
+            mHighScore.setText(String.valueOf(val));
 
-                }
-            }
-        });
+        }
+    }
+});
 
-        // Reset Button
-        final Button resetButton = findViewById(R.id.reset_button);
-        resetButton.setOnClickListener(new OnClickListener() {
+// Reset Button
+final Button resetButton = findViewById(R.id.reset_button);
+resetButton.setOnClickListener(new OnClickListener() {
 
-            @Override
-            public void onClick(View v) {
+    @Override
+    public void onClick(View v) {
 
-                // Set high score to 0
-                SharedPreferences.Editor editor = prefs.edit();
-                editor.putInt(HIGH_SCORE_KEY, 0);
-                editor.apply();
+        // Set high score to 0
+        SharedPreferences.Editor editor = prefs.edit();
+        editor.putInt(HIGH_SCORE_KEY, 0);
+        editor.apply();
 
-                mHighScore.setText(String.valueOf("0"));
-                mGameScore.setText(String.valueOf("0"));
+        mHighScore.setText(String.valueOf("0"));
+        mGameScore.setText(String.valueOf("0"));
 
-            }
-        });
+    }
+});
 
     }
 

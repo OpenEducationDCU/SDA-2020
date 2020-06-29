@@ -1,0 +1,4 @@
+#Tue Nov 26 12:44:05 GMT 2019
+base.0=C\:\\Users\\chris\\SDA-2019\\ThreadingSimple\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

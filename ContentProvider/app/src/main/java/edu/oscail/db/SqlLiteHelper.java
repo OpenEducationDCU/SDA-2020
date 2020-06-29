@@ -9,9 +9,6 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class SqlLiteHelper extends SQLiteOpenHelper {
 
     final static String TABLE_NAME = "authortable";
-    final static String AUTHOR_NAME = "author";
-    final static String BOOK_TITLE = "title";
-    final static String YEAR = "year";
     final static String _ID = "_id";
 
 

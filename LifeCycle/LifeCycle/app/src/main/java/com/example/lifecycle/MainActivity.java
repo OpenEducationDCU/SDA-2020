@@ -21,9 +21,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mView = findViewById(R.id.new_text);
         Log.i(TAG, "onCreate: ");
-
+        if(savedInstanceState != null)
         if(savedInstanceState != null) {
-
+            mView.setText(savedInstanceState.getString(STATE_KEY));
+            Log.i(TAG, "onRestoreInstanceState: restored the pause string");
         }
     }
 

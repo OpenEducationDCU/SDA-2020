@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DataManagementFileInternalMemory.iml" filepath="$PROJECT_DIR$/DataManagementFileInternalMemory.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataManagementFileInternalMemory.iml" filepath="$PROJECT_DIR$/DataManagementFileInternalMemory.iml" group="DataManagementFileInternalMemory" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="DataManagementFileInternalMemory/app" />
     </modules>
   </component>
 </project>

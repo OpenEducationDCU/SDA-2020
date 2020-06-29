@@ -1,30 +1,30 @@
 [
     {
-        "merged": "C:\\Users\\chris\\SDA\\2019\\AudioVideoVideoPlay\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
-        "source": "C:\\Users\\chris\\SDA\\2019\\AudioVideoVideoPlay\\app\\src\\main\\res\\layout\\main.xml"
+        "merged": "E:\\SDA-2020\\AudioVideoVideoPlay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "E:\\SDA-2020\\AudioVideoVideoPlay\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\chris\\SDA\\2019\\AudioVideoVideoPlay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\chris\\SDA\\2019\\AudioVideoVideoPlay\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "E:\\SDA-2020\\AudioVideoVideoPlay\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_main.xml.flat",
+        "source": "E:\\SDA-2020\\AudioVideoVideoPlay\\app\\src\\main\\res\\layout-land\\main.xml"
     },
     {
-        "merged": "C:\\Users\\chris\\SDA\\2019\\AudioVideoVideoPlay\\app\\build\\intermediates\\res\\merged\\debug\\raw_moon.mp4.flat",
-        "source": "C:\\Users\\chris\\SDA\\2019\\AudioVideoVideoPlay\\app\\src\\main\\res\\raw\\moon.mp4"
+        "merged": "E:\\SDA-2020\\AudioVideoVideoPlay\\app\\build\\intermediates\\res\\merged\\debug\\raw_moon.mp4.flat",
+        "source": "E:\\SDA-2020\\AudioVideoVideoPlay\\app\\src\\main\\res\\raw\\moon.mp4"
     },
     {
-        "merged": "C:\\Users\\chris\\SDA\\2019\\AudioVideoVideoPlay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\chris\\SDA\\2019\\AudioVideoVideoPlay\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "E:\\SDA-2020\\AudioVideoVideoPlay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\SDA-2020\\AudioVideoVideoPlay\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\chris\\SDA\\2019\\AudioVideoVideoPlay\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_main.xml.flat",
-        "source": "C:\\Users\\chris\\SDA\\2019\\AudioVideoVideoPlay\\app\\src\\main\\res\\layout-land\\main.xml"
+        "merged": "E:\\SDA-2020\\AudioVideoVideoPlay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "E:\\SDA-2020\\AudioVideoVideoPlay\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\chris\\SDA\\2019\\AudioVideoVideoPlay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\chris\\SDA\\2019\\AudioVideoVideoPlay\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "E:\\SDA-2020\\AudioVideoVideoPlay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\SDA-2020\\AudioVideoVideoPlay\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\chris\\SDA\\2019\\AudioVideoVideoPlay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\chris\\SDA\\2019\\AudioVideoVideoPlay\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "E:\\SDA-2020\\AudioVideoVideoPlay\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
+        "source": "E:\\SDA-2020\\AudioVideoVideoPlay\\app\\src\\main\\res\\layout\\main.xml"
     }
 ]

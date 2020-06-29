@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "applicationId": "course.examples.datamanagement.fileexternal",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "BUNDLE_MANIFEST"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": -1,
+        "outputFile": "app-debug.apk",
+        "fullName": "debug",
+        "baseName": "debug",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "course.examples.datamanagement.fileexternal",
+        "split": "",
+        "minSdkVersion": "23"
+      }
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\chris\\SDA-2019\\RevisedMapLocationFromContacts\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-in\\values-in.xml",
+            "outputFile": "E:\\SDA-2020\\RevisedMapLocationFromContacts\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-in\\values-in.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\chris\\.gradle\\caches\\transforms-2\\files-2.1\\dd1cf78f22bdd94f550130b281f27c97\\support-compat-28.0.0\\res\\values-in\\values-in.xml",
+                    "source": "C:\\Users\\chris\\.gradle\\caches\\transforms-2\\files-2.1\\ccbd3881d3e597a650ace942161206f5\\support-compat-28.0.0\\res\\values-in\\values-in.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

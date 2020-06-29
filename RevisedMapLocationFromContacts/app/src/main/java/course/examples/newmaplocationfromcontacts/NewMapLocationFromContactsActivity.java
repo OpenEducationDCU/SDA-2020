@@ -19,6 +19,8 @@ import android.support.v4.content.ContextCompat;
 import android.support.v4.app.ActivityCompat;
 import android.content.pm.PackageManager;
 
+import java.util.Objects;
+
 //Several Activity lifecycle methods are instrumented to emit LogCat output
 //so you can follow this class' lifecycle
 
@@ -103,7 +105,7 @@ public class NewMapLocationFromContactsActivity extends Activity {
 
 			// These details are covered in the lesson on ContentProviders
 			ContentResolver cr = getContentResolver();
-			Cursor cursor = cr.query(data.getData(), null, null, null, null);
+			Cursor cursor = cr.query(Objects.requireNonNull(data.getData()), null, null, null, null);
 
 			if (null != cursor && cursor.moveToFirst()) {
 				String id = cursor
@@ -142,13 +144,11 @@ public class NewMapLocationFromContactsActivity extends Activity {
 		}
 	}
 
-	public void onRequestPermissionsResult(int requestCode,
-										   String permissions[], int[] grantResults) {
+	public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
 		switch (requestCode) {
 			case MY_PERMISSIONS_REQUEST_READ_CONTACTS: {
 				// If request is cancelled, the result arrays are empty.
-				if (grantResults.length > 0
-						&& grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+				if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
 
 					checkContact();
 
@@ -157,7 +157,6 @@ public class NewMapLocationFromContactsActivity extends Activity {
 					// permission denied, boo! Disable the
 					// functionality that depends on this permission.
 				}
-				return;
 			}
 
 		}

@@ -6,41 +6,42 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
-8-->C:\Users\chris\SDA\2019\databasedemo\app\src\main\AndroidManifest.xml
+8-->E:\SDA-2020\databasedemo\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="28" />
-9-->C:\Users\chris\SDA\2019\databasedemo\app\src\main\AndroidManifest.xml
+9-->E:\SDA-2020\databasedemo\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\chris\SDA\2019\databasedemo\app\src\main\AndroidManifest.xml:8:5-23:19
+11-->E:\SDA-2020\databasedemo\app\src\main\AndroidManifest.xml:8:5-23:19
 12        android:allowBackup="true"
-12-->C:\Users\chris\SDA\2019\databasedemo\app\src\main\AndroidManifest.xml:9:9-35
+12-->E:\SDA-2020\databasedemo\app\src\main\AndroidManifest.xml:9:9-35
 13        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
-13-->[com.android.support:support-compat:28.0.0] C:\Users\chris\.gradle\caches\transforms-2\files-2.1\dd1cf78f22bdd94f550130b281f27c97\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+13-->[com.android.support:support-compat:28.0.0] C:\Users\chris\.gradle\caches\transforms-2\files-2.1\ccbd3881d3e597a650ace942161206f5\support-compat-28.0.0\AndroidManifest.xml:22:18-91
 14        android:debuggable="true"
-15        android:icon="@drawable/ic_database"
-15-->C:\Users\chris\SDA\2019\databasedemo\app\src\main\AndroidManifest.xml:10:9-45
-16        android:label="@string/app_name"
-16-->C:\Users\chris\SDA\2019\databasedemo\app\src\main\AndroidManifest.xml:11:9-41
-17        android:testOnly="true"
-18        android:theme="@style/AppTheme" >
-18-->C:\Users\chris\SDA\2019\databasedemo\app\src\main\AndroidManifest.xml:12:9-40
-19        <activity
-19-->C:\Users\chris\SDA\2019\databasedemo\app\src\main\AndroidManifest.xml:14:9-22:20
-20            android:name="edu.oscail.cs.databasedemo.TestDatabaseActivity"
-20-->C:\Users\chris\SDA\2019\databasedemo\app\src\main\AndroidManifest.xml:15:13-75
-21            android:label="@string/app_name" >
-21-->C:\Users\chris\SDA\2019\databasedemo\app\src\main\AndroidManifest.xml:16:13-45
-22            <intent-filter>
-22-->C:\Users\chris\SDA\2019\databasedemo\app\src\main\AndroidManifest.xml:17:13-21:29
-23                <action android:name="android.intent.action.MAIN" />
-23-->C:\Users\chris\SDA\2019\databasedemo\app\src\main\AndroidManifest.xml:18:17-69
-23-->C:\Users\chris\SDA\2019\databasedemo\app\src\main\AndroidManifest.xml:18:25-66
-24
-25                <category android:name="android.intent.category.LAUNCHER" />
-25-->C:\Users\chris\SDA\2019\databasedemo\app\src\main\AndroidManifest.xml:20:17-77
-25-->C:\Users\chris\SDA\2019\databasedemo\app\src\main\AndroidManifest.xml:20:27-74
-26            </intent-filter>
-27        </activity>
-28    </application>
-29
-30</manifest>
+15        android:extractNativeLibs="false"
+16        android:icon="@drawable/ic_database"
+16-->E:\SDA-2020\databasedemo\app\src\main\AndroidManifest.xml:10:9-45
+17        android:label="@string/app_name"
+17-->E:\SDA-2020\databasedemo\app\src\main\AndroidManifest.xml:11:9-41
+18        android:testOnly="true"
+19        android:theme="@style/AppTheme" >
+19-->E:\SDA-2020\databasedemo\app\src\main\AndroidManifest.xml:12:9-40
+20        <activity
+20-->E:\SDA-2020\databasedemo\app\src\main\AndroidManifest.xml:14:9-22:20
+21            android:name="edu.oscail.cs.databasedemo.TestDatabaseActivity"
+21-->E:\SDA-2020\databasedemo\app\src\main\AndroidManifest.xml:15:13-75
+22            android:label="@string/app_name" >
+22-->E:\SDA-2020\databasedemo\app\src\main\AndroidManifest.xml:16:13-45
+23            <intent-filter>
+23-->E:\SDA-2020\databasedemo\app\src\main\AndroidManifest.xml:17:13-21:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->E:\SDA-2020\databasedemo\app\src\main\AndroidManifest.xml:18:17-69
+24-->E:\SDA-2020\databasedemo\app\src\main\AndroidManifest.xml:18:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->E:\SDA-2020\databasedemo\app\src\main\AndroidManifest.xml:20:17-77
+26-->E:\SDA-2020\databasedemo\app\src\main\AndroidManifest.xml:20:27-74
+27            </intent-filter>
+28        </activity>
+29    </application>
+30
+31</manifest>

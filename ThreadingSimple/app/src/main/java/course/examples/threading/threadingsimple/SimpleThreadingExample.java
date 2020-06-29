@@ -10,6 +10,8 @@ import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.HandlerThread;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
@@ -44,6 +46,16 @@ public class SimpleThreadingExample extends Activity {
                 // This doesn't work in Android because anything related to UI must run on the main thread
                 mIView.setImageBitmap(BitmapFactory.decodeResource(getResources(),
                         R.drawable.painter));
+
+                /*
+                // This will work in Android because we are calling the UI thread.
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        mIView.setImageBitmap(BitmapFactory.decodeResource(getResources(),
+                                R.drawable.painter));
+                    }
+                });*/
             }
         }).start();
     }

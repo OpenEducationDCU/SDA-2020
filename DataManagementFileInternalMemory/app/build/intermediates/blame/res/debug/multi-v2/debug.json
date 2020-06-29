@@ -1,50 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\chris\\SDA\\2019\\DataManagementFileInternalMemory\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "outputFile": "E:\\SDA-2020\\DataManagementFileInternalMemory\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\chris\\SDA\\2019\\DataManagementFileInternalMemory\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "5,9,8,2,3,4,6,7",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "273,476,410,102,144,191,314,361",
-                        "endColumns": "40,69,65,41,46,81,46,48",
-                        "endOffsets": "309,541,471,139,186,268,356,405"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "100,141,209,273,315,362,442,489",
-                        "endColumns": "40,67,63,41,46,79,46,48",
-                        "endOffsets": "136,204,268,310,357,437,484,533"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\chris\\SDA\\2019\\DataManagementFileInternalMemory\\app\\src\\main\\res\\values\\dimens.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "174",
-                        "endColumns": "82",
-                        "endOffsets": "252"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "538",
-                        "endColumns": "80",
-                        "endOffsets": "614"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\chris\\SDA\\2019\\DataManagementFileInternalMemory\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "E:\\SDA-2020\\DataManagementFileInternalMemory\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "55",
+                        "startOffsets": "57",
                         "endColumns": "69",
-                        "endOffsets": "120"
+                        "endOffsets": "122"
                     },
                     "to": {
                         "startLines": "11",
@@ -55,14 +21,14 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\chris\\SDA\\2019\\DataManagementFileInternalMemory\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "E:\\SDA-2020\\DataManagementFileInternalMemory\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "55",
+                        "startOffsets": "57",
                         "endLines": "10",
                         "endColumns": "12",
-                        "endOffsets": "638"
+                        "endOffsets": "648"
                     },
                     "to": {
                         "startLines": "12",
@@ -71,6 +37,40 @@
                         "endLines": "20",
                         "endColumns": "12",
                         "endOffsets": "1272"
+                    }
+                },
+                {
+                    "source": "E:\\SDA-2020\\DataManagementFileInternalMemory\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "5,9,8,2,3,4,6,7",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "278,485,418,104,147,195,320,368",
+                        "endColumns": "40,69,65,41,46,81,46,48",
+                        "endOffsets": "314,550,479,141,189,272,362,412"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "100,141,209,273,315,362,442,489",
+                        "endColumns": "40,67,63,41,46,79,46,48",
+                        "endOffsets": "136,204,268,310,357,437,484,533"
+                    }
+                },
+                {
+                    "source": "E:\\SDA-2020\\DataManagementFileInternalMemory\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "177",
+                        "endColumns": "82",
+                        "endOffsets": "255"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "538",
+                        "endColumns": "80",
+                        "endOffsets": "614"
                     }
                 }
             ]

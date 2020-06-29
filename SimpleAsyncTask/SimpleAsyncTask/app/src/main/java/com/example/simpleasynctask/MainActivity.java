@@ -47,43 +47,39 @@ public class MainActivity extends AppCompatActivity {
 
         ProgressDialog progressDialog;
 
-        @Override
-        protected String doInBackground(String... params) {
-            publishProgress("Sleeping..."); // Calls onProgressUpdate()
-            String resp;
-            try {
-                int time = Integer.parseInt(params[0])*1000;
+@Override
+protected String doInBackground(String... params) {
+    publishProgress("Sleeping..."); // Calls onProgressUpdate()
+    String resp;
+    try {
+        int time = Integer.parseInt(params[0])*1000;
 
-                Thread.sleep(time);
-                resp = "Slept for " + params[0] + " seconds";
-            } catch (Exception e) {
-                e.printStackTrace();
-                resp = e.getMessage();
-            }
-            return resp;
-        }
+        Thread.sleep(time);
+        resp = "Slept for " + params[0] + " seconds";
+    } catch (Exception e) {
+        e.printStackTrace();
+        resp = e.getMessage();
+    }
+    return resp;
+}
 
+@Override
+protected void onPostExecute(String result) {
+    // execution of result of Long time consuming operation
+    progressDialog.dismiss();
+    finalResult.setText(result);
+}
 
-        @Override
-        protected void onPostExecute(String result) {
-            // execution of result of Long time consuming operation
-            progressDialog.dismiss();
-            finalResult.setText(result);
-        }
+@Override
+protected void onPreExecute() {
+    progressDialog = ProgressDialog.show(MainActivity.this,
+            "ProgressDialog",
+            "Wait for "+time.getText().toString()+ " seconds");
+}
 
-
-        @Override
-        protected void onPreExecute() {
-            progressDialog = ProgressDialog.show(MainActivity.this,
-                    "ProgressDialog",
-                    "Wait for "+time.getText().toString()+ " seconds");
-        }
-
-
-        @Override
-        protected void onProgressUpdate(String... text) {
-            finalResult.setText(text[0]);
-
-        }
+@Override
+protected void onProgressUpdate(String... text) {
+    finalResult.setText(text[0]);
+}
     }
 }

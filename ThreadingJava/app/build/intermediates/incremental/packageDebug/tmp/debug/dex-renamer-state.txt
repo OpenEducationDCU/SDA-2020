@@ -1,0 +1,7 @@
+#Thu Jun 18 11:27:35 BST 2020
+base.0=E\:\\SDA-2020\\ThreadingJava\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=E\:\\SDA-2020\\ThreadingJava\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex

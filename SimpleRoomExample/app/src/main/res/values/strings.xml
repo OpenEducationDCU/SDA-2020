@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">SimpleRoomExample</string>
     <string name="HelloWorld">Hello World!</string>
+    <string name="add_more_value">Add More Value</string>
 </resources>

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Activity_Lifecycle.iml" filepath="$PROJECT_DIR$/Activity_Lifecycle.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Activity_Lifecycle.iml" filepath="$PROJECT_DIR$/Activity_Lifecycle.iml" group="Activity_Lifecycle" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Activity_Lifecycle/app" />
     </modules>
   </component>
 </project>

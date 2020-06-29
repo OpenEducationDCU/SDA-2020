@@ -1,4 +1,4 @@
-#Mon Sep 16 09:44:34 BST 2019
-base.0=C\:\\Users\\chris\\SDA\\2019\\NoThreadExample\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+#Wed Jun 17 11:27:30 BST 2020
+base.0=E\:\\SDA-2020\\NoThreadExample\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
