@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">VolleyExample</string>
+    <string name="load_data">Load Data</string>
+    <string name="select_the_load_button">Select the Load button to add new data</string>
+</resources>

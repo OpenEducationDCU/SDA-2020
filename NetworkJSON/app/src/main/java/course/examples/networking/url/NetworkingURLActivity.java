@@ -15,7 +15,6 @@ import android.widget.TextView;
 
 public class NetworkingURLActivity extends Activity
 {
-    private TextView mTextView;
 
     @Override
     public void onCreate(Bundle savedInstanceState)
@@ -45,7 +44,7 @@ public class NetworkingURLActivity extends Activity
                             NetworkJsonActivity.class));
                 } else
                 {
-                    // display error
+                    // display error no network available
                 }
 
             }

@@ -1,16 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\chris\\SDA\\2019\\NetworkingSockets\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "E:\\SDA-2020\\NetworkingSockets\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\chris\\SDA\\2019\\NetworkingSockets\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "E:\\SDA-2020\\NetworkingSockets\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "3,4",
                         "startColumns": "4,4",
-                        "startOffsets": "56,111",
+                        "startOffsets": "59,115",
                         "endColumns": "54,54",
-                        "endOffsets": "106,161"
+                        "endOffsets": "109,165"
                     },
                     "to": {
                         "startLines": "2,3",

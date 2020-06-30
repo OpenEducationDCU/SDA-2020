@@ -1,14 +1,5 @@
 package course.examples.networking.sockets;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-import java.io.PrintWriter;
-import java.net.Socket;
-import java.net.UnknownHostException;
-
 import android.app.Activity;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -18,8 +9,16 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
+import java.net.Socket;
+
 public class NetworkingSocketsActivity extends Activity {
-	static TextView mTextView;
+	TextView mTextView;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -38,7 +37,7 @@ public class NetworkingSocketsActivity extends Activity {
 		});
 	}
 
-	private static class HttpGetTask extends AsyncTask<Void, Void, String> {
+	private class HttpGetTask extends AsyncTask<Void, Void, String> {
 
 		private static final String HOST = "api.geonames.org";
 
