@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "344655382646",
+    "firebase_url": "https://chatsda-18823.firebaseio.com",
+    "project_id": "chatsda-18823",
+    "storage_bucket": "chatsda-18823.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:344655382646:android:a5fb265d8c20f3e07a7757",
+        "android_client_info": {
+          "package_name": "com.example.SDA1.firechatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "344655382646-2tdkcbha8o38sjuttvp7co5e8p8hje6t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.SDA1.firechatapp",
+            "certificate_hash": "299a6fbd3f7f6ea63b660f4a3bab25cc2a07752c"
+          }
+        },
+        {
+          "client_id": "344655382646-78soi7pu0slamads530ehfd7b3tstt5e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.SDA1.firechatapp",
+            "certificate_hash": "57f8d322eaa5bfa3046fa6b5ca2218d6eef62299"
+          }
+        },
+        {
+          "client_id": "344655382646-joq9f8dmptmo7ecroddd8nik44eca67d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2NxGLkcpNNgwrIyiIQP5r0Vtms_jo7N8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "344655382646-joq9f8dmptmo7ecroddd8nik44eca67d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
