@@ -136,12 +136,17 @@ public class DiscussionActivity extends AppCompatActivity {
                 //get the key for the current topic
                 mTempKey = chatDb.push().getKey();
 
-                DatabaseReference chatDB2 = chatDb.child(mTempKey);
+                DatabaseReference chatDB2 = null;
+                if (mTempKey != null) {
+                    chatDB2 = chatDb.child(mTempKey);
+                }
                 Map<String, Object> map2 = new HashMap<>();
                 map2.put("msg", mMessageEditText.getText().toString());
                 map2.put("image", "");
                 map2.put("user", mUserName);
-                chatDB2.updateChildren(map2);
+                if (chatDB2 != null) {
+                    chatDB2.updateChildren(map2);
+                }
             }
         });
 
@@ -249,7 +254,7 @@ public class DiscussionActivity extends AppCompatActivity {
                         })
                         .addOnProgressListener(new OnProgressListener<UploadTask.TaskSnapshot>() {
                             @Override
-                            public void onProgress(UploadTask.TaskSnapshot taskSnapshot) {
+                            public void onProgress(@NonNull UploadTask.TaskSnapshot taskSnapshot) {
                                 mProgressBar.setVisibility(View.VISIBLE);
                             }
                         });
@@ -304,7 +309,7 @@ public class DiscussionActivity extends AppCompatActivity {
                             }
 
                             // Get new Instance ID token
-                            String token = task.getResult().getToken();
+                            String token = Objects.requireNonNull(task.getResult()).getToken();
                             Log.d(TAG, token);
                             Toast.makeText(DiscussionActivity.this, token, Toast.LENGTH_SHORT).show();
                         }
