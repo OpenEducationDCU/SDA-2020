@@ -16,6 +16,7 @@
 
 package edu.dartmouth.cs.fragmentalertdialog;
 
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -28,6 +29,8 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.util.Objects;
+
 /**
  * Demonstrates how to show an AlertDialog that is managed by a Fragment.
  */
@@ -39,9 +42,10 @@ public class FragmentDialogAlarmActivity extends AppCompatActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_fragment_dialog_alert);
 
+		String myTitle = getString(R.string.dialog_title);
 		View tv = findViewById(R.id.text);
 		((TextView) tv)
-				.setText("Example of displaying an alert dialog with a DialogFragment");
+				.setText(myTitle);
 
 		// Watch for button clicks.
 		Button button = findViewById(R.id.show);
@@ -68,6 +72,7 @@ public class FragmentDialogAlarmActivity extends AppCompatActivity {
 		Log.i("FragmentAlertDialog", "Negative click!");
 	}
 
+	//nested class for fragment
 	public static class MyAlertDialogFragment extends DialogFragment {
 
 		public static MyAlertDialogFragment newInstance(int title) {
@@ -78,10 +83,15 @@ public class FragmentDialogAlarmActivity extends AppCompatActivity {
 			return frag;
 		}
 
+		@NonNull
 		@Override
 		public Dialog onCreateDialog(Bundle savedInstanceState) {
-			int title = getArguments().getInt("title");
+			int title = 0;
+			if (getArguments() != null) {
+				title = getArguments().getInt("title");
+			}
 
+			//this creates the alertdialog
 			return new AlertDialog.Builder(getActivity())
 					.setIcon(R.drawable.alert_dialog_dart_icon)
 					.setTitle(title)
@@ -89,7 +99,7 @@ public class FragmentDialogAlarmActivity extends AppCompatActivity {
 							new DialogInterface.OnClickListener() {
 								public void onClick(DialogInterface dialog,
 										int whichButton) {
-									((FragmentDialogAlarmActivity) getActivity())
+									((FragmentDialogAlarmActivity) Objects.requireNonNull(getActivity()))
 											.doPositiveClick();
 								}
 							})
@@ -97,10 +107,11 @@ public class FragmentDialogAlarmActivity extends AppCompatActivity {
 							new DialogInterface.OnClickListener() {
 								public void onClick(DialogInterface dialog,
 										int whichButton) {
-									((FragmentDialogAlarmActivity) getActivity())
+									((FragmentDialogAlarmActivity) Objects.requireNonNull(getActivity()))
 											.doNegativeClick();
 								}
-							}).create();
+							})
+					.create();
 		}
 	}
 

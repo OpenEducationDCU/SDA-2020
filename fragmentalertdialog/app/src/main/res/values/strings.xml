@@ -13,5 +13,6 @@
     <string name="alert_dialog_progress_text2">145/305 KB</string>
     <string name="select_dialog">Header title</string>
     <string name="select_dialog_show">List dialog</string>
+    <string name="dialog_title">Example of displaying an alert dialog with a DialogFragment</string>
 
 </resources>

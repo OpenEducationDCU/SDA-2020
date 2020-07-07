@@ -1,69 +1,69 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:2:1-32:12
+ADDED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:2:1-32:12
 	package
-		ADDED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:3:5-82
-		INJECTED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml
+		ADDED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:3:5-82
+		INJECTED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml
+		INJECTED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.VIBRATE
-ADDED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:5:4-65
+ADDED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:5:4-65
 	android:name
-		ADDED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:5:21-62
+		ADDED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:5:21-62
 application
-ADDED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:7:5-30:19
+ADDED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:7:5-30:19
 	android:label
-		ADDED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:10:9-41
 	android:icon
-		ADDED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:8:9-36
+		ADDED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:8:9-36
 	android:theme
-		ADDED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:11:9-45
+		ADDED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:11:9-45
 activity#course.examples.broadcastreceiver.singlebroadcaststaticregistration.SimpleBroadcastActivity
-ADDED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:12:9-20:20
+ADDED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:12:9-20:20
 	android:label
-		ADDED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:14:13-45
+		ADDED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:14:13-45
 	android:name
-		ADDED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:13:13-52
+		ADDED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:13:13-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:15:13-19:29
+ADDED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:18:27-74
 receiver#course.examples.broadcastreceiver.singlebroadcaststaticregistration.Receiver
-ADDED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:22:9-29:20
+ADDED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:22:9-29:20
 	android:exported
-		ADDED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:24:13-37
+		ADDED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:24:13-37
 	android:permission
-		ADDED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:25:13-60
+		ADDED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:25:13-60
 	android:name
-		ADDED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:23:13-37
+		ADDED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:23:13-37
 intent-filter#action:name:course.examples.broadcastreceiver.singlebroadcaststaticregistration.SHOW_TOAST
-ADDED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:26:13-28:29
+ADDED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:26:13-28:29
 action#course.examples.broadcastreceiver.singlebroadcaststaticregistration.SHOW_TOAST
-ADDED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:27:17-121
+ADDED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:27:17-121
 	android:name
-		ADDED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:27:25-118
+		ADDED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml:27:25-118
 uses-sdk
-INJECTED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml
+INJECTED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml
+INJECTED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml
+INJECTED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml
+INJECTED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml
+		INJECTED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml
+		ADDED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml
+		INJECTED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\chris\SDA-2019\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml
+		INJECTED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml
+		ADDED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml
+		INJECTED from E:\SDA-2020\BcastRecSinBcastStatReg\app\src\main\AndroidManifest.xml

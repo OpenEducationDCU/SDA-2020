@@ -1,50 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\chris\\SDA-2019\\BcastRecCompBcast\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "E:\\SDA-2020\\BcastRecCompBcast\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\chris\\SDA-2019\\BcastRecCompBcast\\app\\src\\main\\res\\values\\dimens.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "127",
-                        "endColumns": "46",
-                        "endOffsets": "169"
-                    },
-                    "to": {
-                        "startLines": "9",
-                        "startColumns": "4",
-                        "startOffsets": "365",
-                        "endColumns": "46",
-                        "endOffsets": "407"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\chris\\SDA-2019\\BcastRecCompBcast\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,110",
-                        "endColumns": "54,68",
-                        "endOffsets": "105,174"
-                    },
-                    "to": {
-                        "startLines": "10,11",
-                        "startColumns": "4,4",
-                        "startOffsets": "412,467",
-                        "endColumns": "54,68",
-                        "endOffsets": "462,531"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\chris\\SDA-2019\\BcastRecCompBcast\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "E:\\SDA-2020\\BcastRecCompBcast\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
                         "startLines": "4,7,2,3,5,6,8",
                         "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "144,281,55,97,185,232,325",
+                        "startOffsets": "148,288,57,100,190,238,333",
                         "endColumns": "40,43,41,46,46,48,39",
-                        "endOffsets": "180,320,92,139,227,276,360"
+                        "endOffsets": "184,327,94,142,232,282,368"
                     },
                     "to": {
                         "startLines": "2,3,4,5,6,7,8",
@@ -55,14 +21,48 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\chris\\SDA-2019\\BcastRecCompBcast\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "E:\\SDA-2020\\BcastRecCompBcast\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "57,113",
+                        "endColumns": "54,68",
+                        "endOffsets": "107,177"
+                    },
+                    "to": {
+                        "startLines": "10,11",
+                        "startColumns": "4,4",
+                        "startOffsets": "412,467",
+                        "endColumns": "54,68",
+                        "endOffsets": "462,531"
+                    }
+                },
+                {
+                    "source": "E:\\SDA-2020\\BcastRecCompBcast\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "130",
+                        "endColumns": "46",
+                        "endOffsets": "172"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "365",
+                        "endColumns": "46",
+                        "endOffsets": "407"
+                    }
+                },
+                {
+                    "source": "E:\\SDA-2020\\BcastRecCompBcast\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "55",
+                        "startOffsets": "57",
                         "endLines": "10",
                         "endColumns": "12",
-                        "endOffsets": "633"
+                        "endOffsets": "643"
                     },
                     "to": {
                         "startLines": "12",

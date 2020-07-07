@@ -1,4 +1,4 @@
-#Mon Sep 16 11:56:58 BST 2019
-base.0=C\:\\Users\\chris\\SDA-2019\\LoggingServiceClient\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+#Tue Jul 07 13:02:34 BST 2020
+base.0=E\:\\SDA-2020\\LoggingServiceClient\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

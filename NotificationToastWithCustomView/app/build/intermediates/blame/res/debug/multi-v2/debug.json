@@ -1,33 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\chris\\SDA-2019\\NotificationToastWithCustomView\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "outputFile": "E:\\SDA-2020\\NotificationToastWithCustomView\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\chris\\SDA-2019\\NotificationToastWithCustomView\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "3,4,6,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "56,125,232,176",
-                        "endColumns": "68,50,56,55",
-                        "endOffsets": "120,171,284,227"
-                    },
-                    "to": {
-                        "startLines": "10,11,12,13",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "414,483,534,591",
-                        "endColumns": "68,50,56,55",
-                        "endOffsets": "478,529,586,642"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\chris\\SDA-2019\\NotificationToastWithCustomView\\app\\src\\main\\res\\values\\dimens.xml",
+                    "source": "E:\\SDA-2020\\NotificationToastWithCustomView\\app\\src\\main\\res\\values\\dimens.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "4",
-                        "startOffsets": "127",
+                        "startOffsets": "130",
                         "endColumns": "46",
-                        "endOffsets": "169"
+                        "endOffsets": "172"
                     },
                     "to": {
                         "startLines": "9",
@@ -38,14 +21,48 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\chris\\SDA-2019\\NotificationToastWithCustomView\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "E:\\SDA-2020\\NotificationToastWithCustomView\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "4,7,2,3,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "148,290,57,100,192,240,335",
+                        "endColumns": "42,43,41,46,46,48,39",
+                        "endOffsets": "186,329,94,142,234,284,370"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,98,142,184,231,278,327",
+                        "endColumns": "42,43,41,46,46,48,39",
+                        "endOffsets": "93,137,179,226,273,322,362"
+                    }
+                },
+                {
+                    "source": "E:\\SDA-2020\\NotificationToastWithCustomView\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "3,4,6,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "59,129,238,181",
+                        "endColumns": "68,50,56,55",
+                        "endOffsets": "123,175,290,232"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "414,483,534,591",
+                        "endColumns": "68,50,56,55",
+                        "endOffsets": "478,529,586,642"
+                    }
+                },
+                {
+                    "source": "E:\\SDA-2020\\NotificationToastWithCustomView\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "55",
+                        "startOffsets": "57",
                         "endLines": "10",
                         "endColumns": "12",
-                        "endOffsets": "633"
+                        "endOffsets": "643"
                     },
                     "to": {
                         "startLines": "14",
@@ -54,23 +71,6 @@
                         "endLines": "22",
                         "endColumns": "12",
                         "endOffsets": "1225"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\chris\\SDA-2019\\NotificationToastWithCustomView\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "4,7,2,3,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "144,283,55,97,187,234,327",
-                        "endColumns": "42,43,41,46,46,48,39",
-                        "endOffsets": "182,322,92,139,229,278,362"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,98,142,184,231,278,327",
-                        "endColumns": "42,43,41,46,46,48,39",
-                        "endOffsets": "93,137,179,226,273,322,362"
                     }
                 }
             ]

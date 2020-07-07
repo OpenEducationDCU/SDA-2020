@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\chris\\SDA-2019\\BcastRecSinBcastDynReg\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "E:\\SDA-2020\\BcastRecSinBcastDynReg\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\chris\\.gradle\\caches\\transforms-2\\files-2.1\\d1a6c7ee41fbe72753318d9586f1a513\\support-media-compat-28.0.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\chris\\.gradle\\caches\\transforms-2\\files-2.1\\557db7c73cb6ea7b75c71195a4d80729\\support-media-compat-28.0.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

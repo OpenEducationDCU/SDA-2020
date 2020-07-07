@@ -1,11 +1,18 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\chris\\SDA-2019\\LoggingServiceClient\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "outputFile": "E:\\SDA-2020\\LoggingServiceClient\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\chris\\SDA-2019\\LoggingServiceClient\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "E:\\SDA-2020\\LoggingServiceClient\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "57,122",
+                        "endColumns": "63,76",
+                        "endOffsets": "116,194"
+                    },
+                    "to": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
                         "startOffsets": "55,119",

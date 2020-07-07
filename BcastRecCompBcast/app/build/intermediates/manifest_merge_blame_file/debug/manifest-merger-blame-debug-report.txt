@@ -4,87 +4,85 @@
 4
 5    <uses-sdk
 6        android:minSdkVersion="23"
-6-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml
-7        android:targetSdkVersion="28" />
-7-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml
+6-->E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="30" />
+7-->E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml
 8
 9    <uses-permission android:name="android.permission.VIBRATE" />
-9-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:6:5-66
-9-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:6:22-63
+9-->E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:6:5-66
+9-->E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:6:22-63
 10
 11    <application
-11-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:8:5-49:19
+11-->E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:8:5-49:19
 12        android:allowBackup="false"
-12-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:9:9-36
+12-->E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:9:9-36
 13        android:debuggable="true"
-14        android:icon="@mipmap/ic_launcher"
-14-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:10:9-43
-15        android:label="@string/app_name"
-15-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:11:9-41
-16        android:testOnly="true"
-17        android:theme="@style/MaterialTheme" >
-17-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:12:9-45
-18        <activity
-18-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:14:9-22:20
-19            android:name="course.examples.broadcastreceiver.compoundbroadcast.CompoundBroadcast"
-19-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:15:13-46
-20            android:label="@string/app_name" >
-20-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:16:13-45
-21            <intent-filter>
-21-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:17:13-21:29
-22                <action android:name="android.intent.action.MAIN" />
-22-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:18:17-69
-22-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:18:25-66
-23
-24                <category android:name="android.intent.category.LAUNCHER" />
-24-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:20:17-77
-24-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:20:27-74
-25            </intent-filter>
-26        </activity>
-27
-28        <receiver
-28-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:24:9-30:20
-29            android:name="course.examples.broadcastreceiver.compoundbroadcast.Receiver3"
-29-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:25:13-38
-30            android:exported="false" >
-30-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:26:13-37
-31            <intent-filter android:priority="30" >
-31-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:27:13-29:29
-31-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:27:28-49
-32                <action android:name="course.examples.broadcastreceiver.compoundbroadcast.SHOW_TOAST" />
-32-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:28:17-105
-32-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:28:25-102
-33            </intent-filter>
-34        </receiver>
-35        <receiver
-35-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:32:9-38:20
-36            android:name="course.examples.broadcastreceiver.compoundbroadcast.Receiver2"
-36-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:33:13-38
-37            android:exported="false" >
-37-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:34:13-37
-38            <intent-filter android:priority="20" >
-38-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:27:13-29:29
-38-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:27:28-49
-39                <action android:name="course.examples.broadcastreceiver.compoundbroadcast.SHOW_TOAST" />
-39-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:28:17-105
-39-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:28:25-102
-40            </intent-filter>
-41        </receiver>
-42        <receiver
-42-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:40:9-47:20
-43            android:name="course.examples.broadcastreceiver.compoundbroadcast.Receiver1"
-43-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:41:13-38
-44            android:exported="false" >
-44-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:42:13-37
-45            <intent-filter android:priority="40" >
-45-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:27:13-29:29
-45-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:27:28-49
-46                <action android:name="course.examples.broadcastreceiver.compoundbroadcast.SHOW_TOAST" >
-46-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:28:17-105
-46-->C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:28:25-102
-47                </action>
-48            </intent-filter>
-49        </receiver>
-50    </application>
-51
-52</manifest>
+14        android:extractNativeLibs="false"
+15        android:icon="@mipmap/ic_launcher"
+15-->E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:10:9-43
+16        android:label="@string/app_name"
+16-->E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:11:9-41
+17        android:testOnly="true"
+18        android:theme="@style/MaterialTheme" >
+18-->E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:12:9-45
+19        <activity
+19-->E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:14:9-22:20
+20            android:name="course.examples.broadcastreceiver.compoundbroadcast.CompoundBroadcast"
+20-->E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:15:13-46
+21            android:label="@string/app_name" >
+21-->E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:16:13-45
+22            <intent-filter>
+22-->E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:17:13-21:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:18:17-69
+23-->E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:18:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:20:17-77
+25-->E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:20:27-74
+26            </intent-filter>
+27        </activity>
+28
+29        <receiver
+29-->E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:24:9-30:20
+30            android:name="course.examples.broadcastreceiver.compoundbroadcast.Receiver3"
+30-->E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:25:13-38
+31            android:exported="false" >
+31-->E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:26:13-37
+32            <intent-filter>
+32-->E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:27:13-29:29
+33                <action android:name="course.examples.broadcastreceiver.compoundbroadcast.SHOW_TOAST" />
+33-->E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:28:17-105
+33-->E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:28:25-102
+34            </intent-filter>
+35        </receiver>
+36        <receiver
+36-->E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:32:9-38:20
+37            android:name="course.examples.broadcastreceiver.compoundbroadcast.Receiver2"
+37-->E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:33:13-38
+38            android:exported="false" >
+38-->E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:34:13-37
+39            <intent-filter>
+39-->E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:27:13-29:29
+40                <action android:name="course.examples.broadcastreceiver.compoundbroadcast.SHOW_TOAST" />
+40-->E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:28:17-105
+40-->E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:28:25-102
+41            </intent-filter>
+42        </receiver>
+43        <receiver
+43-->E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:40:9-47:20
+44            android:name="course.examples.broadcastreceiver.compoundbroadcast.Receiver1"
+44-->E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:41:13-38
+45            android:exported="false" >
+45-->E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:42:13-37
+46            <intent-filter>
+46-->E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:27:13-29:29
+47                <action android:name="course.examples.broadcastreceiver.compoundbroadcast.SHOW_TOAST" >
+47-->E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:28:17-105
+47-->E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:28:25-102
+48                </action>
+49            </intent-filter>
+50        </receiver>
+51    </application>
+52
+53</manifest>

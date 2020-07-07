@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "applicationId": "course.examples.notification.toast",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "BUNDLE_MANIFEST"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": -1,
+        "outputFile": "app-debug.apk",
+        "fullName": "debug",
+        "baseName": "debug",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "course.examples.notification.toast",
+        "split": "",
+        "minSdkVersion": "23"
+      }
+    }
+  ]
+}

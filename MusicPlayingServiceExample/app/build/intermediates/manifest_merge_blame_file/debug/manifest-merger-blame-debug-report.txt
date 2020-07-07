@@ -6,46 +6,48 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
-8-->C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="28" />
-9-->C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml
+8-->E:\SDA-2020\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->E:\SDA-2020\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-11-->C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:8:5-77
-11-->C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:8:22-74
+11-->E:\SDA-2020\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:8:5-77
+11-->E:\SDA-2020\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:8:22-74
 12
 13    <application
-13-->C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:10:5-27:19
+13-->E:\SDA-2020\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:10:5-27:19
 14        android:allowBackup="false"
-14-->C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:11:9-36
+14-->E:\SDA-2020\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:11:9-36
 15        android:debuggable="true"
-16        android:icon="@drawable/ic_launcher"
-16-->C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:12:9-45
-17        android:label="@string/app_name" >
-17-->C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:13:9-41
-18        <activity
-18-->C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:15:9-24:20
-19            android:name="course.examples.services.musicservice.MusicServiceClient"
-19-->C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:16:13-84
-20            android:label="@string/app_name"
-20-->C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:17:13-45
-21            android:launchMode="singleTop" >
-21-->C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:18:13-43
-22            <intent-filter>
-22-->C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:19:13-23:29
-23                <action android:name="android.intent.action.MAIN" />
-23-->C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:20:17-69
-23-->C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:20:25-66
-24
-25                <category android:name="android.intent.category.LAUNCHER" />
-25-->C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:22:17-77
-25-->C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:22:27-74
-26            </intent-filter>
-27        </activity>
-28
-29        <service android:name="course.examples.services.musicservice.MusicService" />
-29-->C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:26:9-86
-29-->C:\Users\chris\SDA-2019\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:26:18-83
-30    </application>
-31
-32</manifest>
+16        android:extractNativeLibs="false"
+17        android:icon="@drawable/ic_launcher"
+17-->E:\SDA-2020\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:12:9-45
+18        android:label="@string/app_name"
+18-->E:\SDA-2020\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:13:9-41
+19        android:testOnly="true" >
+20        <activity
+20-->E:\SDA-2020\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:15:9-24:20
+21            android:name="course.examples.services.musicservice.MusicServiceClient"
+21-->E:\SDA-2020\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:16:13-84
+22            android:label="@string/app_name"
+22-->E:\SDA-2020\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:17:13-45
+23            android:launchMode="singleTop" >
+23-->E:\SDA-2020\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:18:13-43
+24            <intent-filter>
+24-->E:\SDA-2020\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:19:13-23:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->E:\SDA-2020\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:20:17-69
+25-->E:\SDA-2020\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:20:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->E:\SDA-2020\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:22:17-77
+27-->E:\SDA-2020\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:22:27-74
+28            </intent-filter>
+29        </activity>
+30
+31        <service android:name="course.examples.services.musicservice.MusicService" />
+31-->E:\SDA-2020\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:26:9-86
+31-->E:\SDA-2020\MusicPlayingServiceExample\app\src\main\AndroidManifest.xml:26:18-83
+32    </application>
+33
+34</manifest>

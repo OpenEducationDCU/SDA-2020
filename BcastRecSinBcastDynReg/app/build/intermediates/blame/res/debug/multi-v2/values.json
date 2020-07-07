@@ -1,16 +1,33 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\chris\\SDA-2019\\BcastRecSinBcastDynReg\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "E:\\SDA-2020\\BcastRecSinBcastDynReg\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\chris\\SDA-2019\\BcastRecSinBcastDynReg\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "E:\\SDA-2020\\BcastRecSinBcastDynReg\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "130",
+                        "endColumns": "46",
+                        "endOffsets": "172"
+                    },
+                    "to": {
+                        "startLines": "17",
+                        "startColumns": "4",
+                        "startOffsets": "923",
+                        "endColumns": "46",
+                        "endOffsets": "965"
+                    }
+                },
+                {
+                    "source": "E:\\SDA-2020\\BcastRecSinBcastDynReg\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
                         "startLines": "4,7,2,3,5,6,8",
                         "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "144,281,55,97,185,232,325",
+                        "startOffsets": "148,288,57,100,190,238,333",
                         "endColumns": "40,43,41,46,46,48,39",
-                        "endOffsets": "180,320,92,139,227,276,360"
+                        "endOffsets": "184,327,94,142,232,282,368"
                     },
                     "to": {
                         "startLines": "3,4,8,9,10,13,16",
@@ -21,14 +38,31 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\chris\\SDA-2019\\BcastRecSinBcastDynReg\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "E:\\SDA-2020\\BcastRecSinBcastDynReg\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "57,147",
+                        "endColumns": "88,68",
+                        "endOffsets": "141,211"
+                    },
+                    "to": {
+                        "startLines": "56,57",
+                        "startColumns": "4,4",
+                        "startOffsets": "3268,3357",
+                        "endColumns": "88,68",
+                        "endOffsets": "3352,3421"
+                    }
+                },
+                {
+                    "source": "E:\\SDA-2020\\BcastRecSinBcastDynReg\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "55",
+                        "startOffsets": "57",
                         "endLines": "10",
                         "endColumns": "12",
-                        "endOffsets": "633"
+                        "endOffsets": "643"
                     },
                     "to": {
                         "startLines": "59",
@@ -40,41 +74,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\chris\\SDA-2019\\BcastRecSinBcastDynReg\\app\\src\\main\\res\\values\\dimens.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "127",
-                        "endColumns": "46",
-                        "endOffsets": "169"
-                    },
-                    "to": {
-                        "startLines": "17",
-                        "startColumns": "4",
-                        "startOffsets": "923",
-                        "endColumns": "46",
-                        "endOffsets": "965"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\chris\\.gradle\\caches\\transforms-2\\files-2.1\\d1a6c7ee41fbe72753318d9586f1a513\\support-media-compat-28.0.0\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,144,215,288,341,394,447,500,560,626,748,809,875",
-                        "endColumns": "88,70,72,52,52,52,52,59,65,121,60,65,66",
-                        "endOffsets": "139,210,283,336,389,442,495,555,621,743,804,870,937"
-                    },
-                    "to": {
-                        "startLines": "7,11,14,40,41,42,43,54,73,75,76,81,83",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "333,558,736,2436,2489,2542,2595,3138,4398,4574,4696,4958,5153",
-                        "endColumns": "88,70,72,52,52,52,52,59,65,121,60,65,66",
-                        "endOffsets": "417,624,804,2484,2537,2590,2643,3193,4459,4691,4752,5019,5215"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\chris\\.gradle\\caches\\transforms-2\\files-2.1\\5d3c4801a740528a85d2e670b2dd23b7\\coordinatorlayout-28.0.0\\res\\values\\values.xml",
+                    "source": "C:\\Users\\chris\\.gradle\\caches\\transforms-2\\files-2.1\\02032d4eab5e547a1b10f7e2cc64a621\\coordinatorlayout-28.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,102,3,13",
                         "startColumns": "4,4,4,4",
@@ -93,7 +93,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\chris\\.gradle\\caches\\transforms-2\\files-2.1\\dd1cf78f22bdd94f550130b281f27c97\\support-compat-28.0.0\\res\\values\\values.xml",
+                    "source": "C:\\Users\\chris\\.gradle\\caches\\transforms-2\\files-2.1\\ccbd3881d3e597a650ace942161206f5\\support-compat-28.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,171,172,176,177,178,6,13,56,88,125",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -112,20 +112,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\chris\\SDA-2019\\BcastRecSinBcastDynReg\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\chris\\.gradle\\caches\\transforms-2\\files-2.1\\557db7c73cb6ea7b75c71195a4d80729\\support-media-compat-28.0.0\\res\\values\\values.xml",
                     "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,144",
-                        "endColumns": "88,68",
-                        "endOffsets": "139,208"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,144,215,288,341,394,447,500,560,626,748,809,875",
+                        "endColumns": "88,70,72,52,52,52,52,59,65,121,60,65,66",
+                        "endOffsets": "139,210,283,336,389,442,495,555,621,743,804,870,937"
                     },
                     "to": {
-                        "startLines": "56,57",
-                        "startColumns": "4,4",
-                        "startOffsets": "3268,3357",
-                        "endColumns": "88,68",
-                        "endOffsets": "3352,3421"
+                        "startLines": "7,11,14,40,41,42,43,54,73,75,76,81,83",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "333,558,736,2436,2489,2542,2595,3138,4398,4574,4696,4958,5153",
+                        "endColumns": "88,70,72,52,52,52,52,59,65,121,60,65,66",
+                        "endOffsets": "417,624,804,2484,2537,2590,2643,3193,4459,4691,4752,5019,5215"
                     }
                 }
             ]

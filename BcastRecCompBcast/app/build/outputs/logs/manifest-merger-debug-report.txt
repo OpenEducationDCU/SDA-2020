@@ -1,85 +1,83 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:2:1-51:12
+ADDED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:2:1-51:12
 	package
-		ADDED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:4:5-66
-		INJECTED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml
+		ADDED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:4:5-66
+		INJECTED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml
+		INJECTED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:3:5-51
 	xmlns:android
-		ADDED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.VIBRATE
-ADDED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:6:5-66
+ADDED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:6:5-66
 	android:name
-		ADDED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:6:22-63
+		ADDED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:6:22-63
 application
-ADDED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:8:5-49:19
+ADDED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:8:5-49:19
 	android:label
-		ADDED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:11:9-41
 	tools:ignore
-		ADDED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:13:9-48
+		ADDED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:13:9-48
 	android:icon
-		ADDED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:9:9-36
+		ADDED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:9:9-36
 	android:theme
-		ADDED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:12:9-45
+		ADDED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:12:9-45
 activity#course.examples.broadcastreceiver.compoundbroadcast.CompoundBroadcast
-ADDED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:14:9-22:20
+ADDED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:14:9-22:20
 	android:label
-		ADDED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:16:13-45
+		ADDED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:16:13-45
 	android:name
-		ADDED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:15:13-46
+		ADDED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:15:13-46
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:17:13-21:29
+ADDED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:18:17-69
+ADDED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:18:25-66
+		ADDED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:20:17-77
+ADDED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:20:27-74
+		ADDED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:20:27-74
 receiver#course.examples.broadcastreceiver.compoundbroadcast.Receiver3
-ADDED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:24:9-30:20
+ADDED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:24:9-30:20
 	android:exported
-		ADDED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:26:13-37
+		ADDED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:26:13-37
 	android:name
-		ADDED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:25:13-38
+		ADDED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:25:13-38
 intent-filter#action:name:course.examples.broadcastreceiver.compoundbroadcast.SHOW_TOAST
-ADDED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:27:13-29:29
-	android:priority
-		ADDED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:27:28-49
+ADDED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:27:13-29:29
 action#course.examples.broadcastreceiver.compoundbroadcast.SHOW_TOAST
-ADDED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:28:17-105
+ADDED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:28:17-105
 	android:name
-		ADDED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:28:25-102
+		ADDED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:28:25-102
 receiver#course.examples.broadcastreceiver.compoundbroadcast.Receiver2
-ADDED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:32:9-38:20
+ADDED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:32:9-38:20
 	android:exported
-		ADDED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:34:13-37
+		ADDED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:33:13-38
+		ADDED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:33:13-38
 receiver#course.examples.broadcastreceiver.compoundbroadcast.Receiver1
-ADDED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:40:9-47:20
+ADDED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:40:9-47:20
 	android:exported
-		ADDED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:42:13-37
+		ADDED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:42:13-37
 	android:name
-		ADDED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml:41:13-38
+		ADDED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml:41:13-38
 uses-sdk
-INJECTED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml
+INJECTED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml
+INJECTED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml
+INJECTED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml
+INJECTED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml
+		INJECTED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml
+		ADDED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml
+		INJECTED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\chris\SDA-2019\BcastRecCompBcast\app\src\main\AndroidManifest.xml
+		INJECTED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml
+		ADDED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml
+		INJECTED from E:\SDA-2020\BcastRecCompBcast\app\src\main\AndroidManifest.xml

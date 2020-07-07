@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BcastRecSinBcastStatReg.iml" filepath="$PROJECT_DIR$/BcastRecSinBcastStatReg.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BcastRecSinBcastStatReg.iml" filepath="$PROJECT_DIR$/BcastRecSinBcastStatReg.iml" group="BcastRecSinBcastStatReg" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="BcastRecSinBcastStatReg/app" />
     </modules>
   </component>
 </project>

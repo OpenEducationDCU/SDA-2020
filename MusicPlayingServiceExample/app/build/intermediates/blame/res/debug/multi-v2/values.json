@@ -1,11 +1,18 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\chris\\SDA-2019\\MusicPlayingServiceExample\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "E:\\SDA-2020\\MusicPlayingServiceExample\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\chris\\SDA-2019\\MusicPlayingServiceExample\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "E:\\SDA-2020\\MusicPlayingServiceExample\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "57,131,195",
+                        "endColumns": "72,62,60",
+                        "endOffsets": "125,189,251"
+                    },
+                    "to": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
                         "startOffsets": "55,128,191",

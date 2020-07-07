@@ -4,6 +4,8 @@ import android.app.IntentService;
 import android.content.Intent;
 import android.util.Log;
 
+import java.util.Objects;
+
 public class LoggingService extends IntentService {
 
 	public static String EXTRA_LOG = "course.examples.services.localloggingservice.MESSAGE";
@@ -16,7 +18,7 @@ public class LoggingService extends IntentService {
 	@Override
 	protected void onHandleIntent(Intent intent) {
 
-		Log.i(TAG, intent.getStringExtra(EXTRA_LOG));
+		Log.i(TAG, Objects.requireNonNull(intent.getStringExtra(EXTRA_LOG)));
 
 	}
 }
