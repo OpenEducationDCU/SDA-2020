@@ -13,6 +13,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
@@ -80,8 +81,15 @@ public class MainActivity extends AppCompatActivity {
 
     /*this method gets the last location details and sets the values in our
     simple textView it is called by the button being pressed.*/
-    public void getLastLocation(){
+    public void getLastLocation() {
         Log.d(TAG, "onClick: get location selected");
+
+        //runs a quick permission check to stop the IDE complaining
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            return;
+        }
+
+        //not using a lambda here *(show full OnSuccessListener code).
         mFusedLocationClient.getLastLocation()
                 .addOnSuccessListener(this, new OnSuccessListener<Location>() {
                     @Override
@@ -102,33 +110,38 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /*this gets the last location with geocoded address content*/
-    protected void getLastAddress(){
+    protected void getLastAddress() {
         Log.d(TAG, "onClick: get address selected");
+
+        //runs a quick permission check to stop the IDE complaining
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            return;
+        }
 
         //note I am using a lambda here.
         mFusedLocationClient.getLastLocation()
                 .addOnSuccessListener(this, location -> {
-                if (location != null) {
-                    wayLatitude = location.getLatitude();
-                    wayLongitude = location.getLongitude();
-                    // start up the geocoder
-                    Geocoder geocoder = new Geocoder(getApplicationContext(), Locale.getDefault());
-                    try {
-                        List<Address> addresses = geocoder.getFromLocation(wayLatitude, wayLongitude,1);
-                        String finalAddress = getStringVal(addresses);
+                    if (location != null) {
+                        wayLatitude = location.getLatitude();
+                        wayLongitude = location.getLongitude();
+                        // start up the geocoder
+                        Geocoder geocoder = new Geocoder(getApplicationContext(), Locale.getDefault());
+                        try {
+                            List<Address> addresses = geocoder.getFromLocation(wayLatitude, wayLongitude, 1);
+                            String finalAddress = getStringVal(addresses);
 
-                        if(!finalAddress.equals("")) {
-                            mCoordinate.setText(finalAddress);
-                        } else {
+                            if (!finalAddress.equals("")) {
+                                mCoordinate.setText(finalAddress);
+                            } else {
 
-                            mCoordinate.setText(getString(R.string.no_address));
+                                mCoordinate.setText(getString(R.string.no_address));
+                            }
+
+                        } catch (IOException e) {
+                            Log.e(TAG, "getLastAddress: ", e);
                         }
-
-                    } catch (IOException e) {
-                        Log.e(TAG, "getLastAddress: ", e);
                     }
-                }
-        });
+                });
     }
 
     //handles manipulating the string value of the returned addresses from geocoder.
@@ -201,7 +214,7 @@ public class MainActivity extends AppCompatActivity {
     //this handles the response from the user when they are prompted to give us access
     @Override
     public void onRequestPermissionsResult(int requestCode,
-                                           String[] permissions, int[] grantResults) {
+                                           @NonNull String[] permissions, @NonNull int[] grantResults) {
 
         if (requestCode == MY_PERMISSIONS_REQUEST_LOCATION) {
             // If request is cancelled, the result arrays are empty.

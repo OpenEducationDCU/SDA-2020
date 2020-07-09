@@ -1,7 +1,7 @@
-#Thu Sep 12 10:08:53 BST 2019
-base.0=C\:\\Users\\chris\\Desktop\\modules\\WalkMyAndroid-Solution\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Thu Jul 09 12:07:10 BST 2020
+base.0=E\:\\SDA-2020\\WalkMyAndroid-Solution\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=C\:\\Users\\chris\\Desktop\\modules\\WalkMyAndroid-Solution\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+base.1=E\:\\SDA-2020\\WalkMyAndroid-Solution\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex

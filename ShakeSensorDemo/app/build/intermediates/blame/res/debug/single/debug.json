@@ -1,22 +1,22 @@
 [
     {
-        "merged": "C:\\Users\\chris\\SDA-2019\\ShakeSensorDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_icon.png.flat",
-        "source": "C:\\Users\\chris\\SDA-2019\\ShakeSensorDemo\\app\\src\\main\\res\\drawable-hdpi\\ic_icon.png"
+        "merged": "E:\\SDA-2020\\ShakeSensorDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
+        "source": "E:\\SDA-2020\\ShakeSensorDemo\\app\\src\\main\\res\\layout\\main.xml"
     },
     {
-        "merged": "C:\\Users\\chris\\SDA-2019\\ShakeSensorDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_icon.png.flat",
-        "source": "C:\\Users\\chris\\SDA-2019\\ShakeSensorDemo\\app\\src\\main\\res\\drawable-xhdpi\\ic_icon.png"
+        "merged": "E:\\SDA-2020\\ShakeSensorDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_icon.png.flat",
+        "source": "E:\\SDA-2020\\ShakeSensorDemo\\app\\src\\main\\res\\drawable-xhdpi\\ic_icon.png"
     },
     {
-        "merged": "C:\\Users\\chris\\SDA-2019\\ShakeSensorDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_icon.png.flat",
-        "source": "C:\\Users\\chris\\SDA-2019\\ShakeSensorDemo\\app\\src\\main\\res\\drawable-mdpi\\ic_icon.png"
+        "merged": "E:\\SDA-2020\\ShakeSensorDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_icon.png.flat",
+        "source": "E:\\SDA-2020\\ShakeSensorDemo\\app\\src\\main\\res\\drawable-ldpi\\ic_icon.png"
     },
     {
-        "merged": "C:\\Users\\chris\\SDA-2019\\ShakeSensorDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
-        "source": "C:\\Users\\chris\\SDA-2019\\ShakeSensorDemo\\app\\src\\main\\res\\layout\\main.xml"
+        "merged": "E:\\SDA-2020\\ShakeSensorDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_icon.png.flat",
+        "source": "E:\\SDA-2020\\ShakeSensorDemo\\app\\src\\main\\res\\drawable-hdpi\\ic_icon.png"
     },
     {
-        "merged": "C:\\Users\\chris\\SDA-2019\\ShakeSensorDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_icon.png.flat",
-        "source": "C:\\Users\\chris\\SDA-2019\\ShakeSensorDemo\\app\\src\\main\\res\\drawable-ldpi\\ic_icon.png"
+        "merged": "E:\\SDA-2020\\ShakeSensorDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_icon.png.flat",
+        "source": "E:\\SDA-2020\\ShakeSensorDemo\\app\\src\\main\\res\\drawable-mdpi\\ic_icon.png"
     }
 ]

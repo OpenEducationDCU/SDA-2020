@@ -31,9 +31,9 @@ public class SensorTestActivity extends Activity implements SensorEventListener 
 		setContentView(R.layout.main);
 		
 		// get textviews
-		textx = (TextView) findViewById(R.id.xval);
-		texty = (TextView) findViewById(R.id.yval);
-		textz = (TextView) findViewById(R.id.zval);
+		textx = findViewById(R.id.xval);
+		texty = findViewById(R.id.yval);
+		textz = findViewById(R.id.zval);
 
 		
 		view = findViewById(R.id.textView);

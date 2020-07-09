@@ -16,6 +16,7 @@
 package com.example.android.walkmyandroid;
 
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.location.Address;
 import android.location.Geocoder;
@@ -31,9 +32,12 @@ import java.util.Locale;
 
 /**
  * AsyncTask for reverse geocoding coordinates into a physical address.
+ * Note this class is deprecated in SDK 30. going forward we should be using Executor service<br>
+ * (https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/ExecutorService.html)
  */
 class FetchAddressTask extends AsyncTask<Location, Void, String> {
 
+    @SuppressLint("StaticFieldLeak")
     private Context mContext;
     private OnTaskCompleted mListener;
 

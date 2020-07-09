@@ -1,4 +1,4 @@
-#Mon Sep 16 12:03:08 BST 2019
-base.0=C\:\\Users\\chris\\SDA-2019\\ShakeSensorDemo\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+#Wed Jul 08 12:10:46 BST 2020
+base.0=E\:\\SDA-2020\\ShakeSensorDemo\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

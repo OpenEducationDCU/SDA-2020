@@ -1,16 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\chris\\SDA-2019\\ShakeSensorDemo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "E:\\SDA-2020\\ShakeSensorDemo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\chris\\SDA-2019\\ShakeSensorDemo\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "E:\\SDA-2020\\ShakeSensorDemo\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "4,3,5",
                         "startColumns": "4,4,4",
-                        "startOffsets": "116,56,165",
+                        "startOffsets": "120,59,170",
                         "endColumns": "48,59,83",
-                        "endOffsets": "160,111,244"
+                        "endOffsets": "164,114,249"
                     },
                     "to": {
                         "startLines": "2,3,4",
