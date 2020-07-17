@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_save">Save</string>
+    <string name="communicate">Communicate</string>
+    <string name="menu_party">Party Time</string>
+    <string name="this_is_an_activity_outside_the_main_app_navigational_element">This is an activity outside the main app navigational element</string>
+</resources>
